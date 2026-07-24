@@ -96,33 +96,32 @@ def all_matched_terms(text: str) -> set[str]:
     return hits
 
 
-MIN_KEYWORD_HITS = 2  # require at least this many distinct terms total
+MIN_KEYWORD_HITS = 3  # total distinct terms required (product + general + adjacent combined)
 
 
 def is_relevant(text: str) -> bool:
-    """A posting counts as relevant only if BOTH:
-      1. it hits at least one PRODUCT_KEYWORDS term -- something that
-         actually describes what HAVEN/Argus/Hydra/GoLynk does, not just
-         generic defense-tech language, and
-      2. it hits at least MIN_KEYWORD_HITS distinct terms total (product +
-         general + adjacent combined).
-
-    Generic buzzwords alone (e.g. "resilient" + "autonomous" with no actual
-    product-specific term) are no longer sufficient by themselves -- that
-    was letting in postings only loosely connected to what Hoplynk
-    actually builds. This is the main lever to pull if the dashboard is
-    still surfacing too many/too few results: loosen by removing the
-    keyword_matches(text) requirement below, or tighten by raising
-    MIN_KEYWORD_HITS."""
-    if not keyword_matches(text):
-        return False
+    """A posting counts as relevant if it hits at least MIN_KEYWORD_HITS
+    distinct terms across the combined keyword vocabulary -- no longer
+    requires one of those hits to be product-specific (that was too
+    strict, cutting results down further than intended). Raising
+    MIN_KEYWORD_HITS to 3 (from 2) is the actual lever pulling this back
+    toward "not too generic" without requiring a literal product-name-level
+    match. Tune this single number first if results still feel off in
+    either direction."""
     return len(all_matched_terms(text)) >= MIN_KEYWORD_HITS
 
 
 def match_tier(text: str) -> str:
-    """Always 'Review' for anything that passes is_relevant() now, since
-    that already guarantees a direct product-keyword hit -- there's no
-    weaker "broad match" tier being assigned by the automated scan anymore.
-    Manual/curated entries use 'High'/'Adjacent' directly in
-    data/normalized/manual.json and never go through this function."""
-    return "Review"
+    """'Review' for anything with at least one product-specific or
+    general-defense-networking term; 'Review (broad match)' for something
+    that only cleared the bar via adjacent (looser) terms -- e.g. three
+    hits on "cyber", "space", "logistics" with nothing more specific.
+    Visually distinct on the dashboard so lower-confidence matches don't
+    blend in with tighter ones. Manual/curated entries use 'High'/
+    'Adjacent' directly and never go through this function."""
+    text_l = text.lower()
+    if keyword_matches(text):
+        return "Review"
+    if any(kw in text_l for kw in GENERAL_KEYWORDS):
+        return "Review"
+    return "Review (broad match)"
