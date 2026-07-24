@@ -1,27 +1,6 @@
 {
-  "lastScan": "2026-07-23T23:29:40.648866Z",
+  "lastScan": "2026-07-24T21:32:09.718757Z",
   "opportunities": [
-    {
-      "externalKey": "dod-sbir-zero-trust-combat-systems",
-      "rawDocumentPath": null,
-      "source": "manual",
-      "name": "Real-time Zero Trust Data and Access Control for Combat Systems",
-      "objective": "Develop a real-time Zero Trust data access control system for combat systems.",
-      "openDate": "2026-06-24",
-      "closeDate": "2026-07-22",
-      "cmmcRequirement": "Level 2 (self)",
-      "fundingAmount": null,
-      "applicationUrl": "https://www.dodsbirsttr.mil/topics-app/",
-      "notes": "High alignment, but Hoplynk does not currently have Advanced Authentication (biometrics/MFA) or a blockchain-based immutable access-logging capability the Navy is exploring. Targets: cut access latency 50%+, cut unauthorized-access risk 90%+, cut admin overhead 25%+.",
-      "products": [
-        "Hydra",
-        "Argus"
-      ],
-      "fitLevel": "High",
-      "matchSource": "manual",
-      "firstSeen": "2026-07-20",
-      "archived": false
-    },
     {
       "externalKey": "dod-sbir-universal-control-assessment",
       "rawDocumentPath": null,
@@ -36,68 +15,6 @@
       "notes": "High alignment.",
       "products": [
         "Argus",
-        "Hydra"
-      ],
-      "fitLevel": "High",
-      "matchSource": "manual",
-      "firstSeen": "2026-07-20",
-      "archived": false
-    },
-    {
-      "externalKey": "dod-sbir-adaptive-sensor-management",
-      "rawDocumentPath": null,
-      "source": "manual",
-      "name": "Adaptive Sensor Management",
-      "objective": "Develop an algorithmic capability for dynamic resource allocation across Ship Self-Defense System (SSDS) sensor tasking, identifying sensors that can be released for other tasking without sacrificing track quality, and where reallocated resources would help most.",
-      "openDate": "2026-06-24",
-      "closeDate": "2026-07-22",
-      "cmmcRequirement": "Level 2 (self)",
-      "fundingAmount": null,
-      "applicationUrl": "https://www.dodsbirsttr.mil/topics-app/",
-      "notes": "High alignment.",
-      "products": [
-        "Argus",
-        "Hydra"
-      ],
-      "fitLevel": "High",
-      "matchSource": "manual",
-      "firstSeen": "2026-07-20",
-      "archived": false
-    },
-    {
-      "externalKey": "dod-sbir-high-throughput-embarked-data-transfer",
-      "rawDocumentPath": null,
-      "source": "manual",
-      "name": "High-Throughput Embarked Data Transfer",
-      "objective": "Develop a small form-factor device (one cubic foot stowed, including transceiver) and supporting software to enable high-throughput data package transmission off embarked Navy platforms.",
-      "openDate": "2026-06-24",
-      "closeDate": "2026-07-22",
-      "cmmcRequirement": "Level 2 (self)",
-      "fundingAmount": null,
-      "applicationUrl": "https://www.dodsbirsttr.mil/topics-app/",
-      "notes": "High alignment, only caveat is the Navy is looking specifically at free-space laser/IR links rather than fiber or traditional RF. Target: 4TB in 60 seconds (~67GB/s sustained) over 5,000+ nautical miles.",
-      "products": [
-        "HAVEN"
-      ],
-      "fitLevel": "High",
-      "matchSource": "manual",
-      "firstSeen": "2026-07-20",
-      "archived": false
-    },
-    {
-      "externalKey": "dod-sbir-secure-tasking-commercial-assets",
-      "rawDocumentPath": null,
-      "source": "manual",
-      "name": "Secure Tasking of Commercial Assets",
-      "objective": "Develop a capability for intercommunication between government and commercial satellites, including end-to-end encryption within existing commercial tasking interfaces, secure data transfer protocols, and blockchain-based verification of tasking request authenticity/integrity.",
-      "openDate": "2026-06-24",
-      "closeDate": "2026-07-22",
-      "cmmcRequirement": "Level 2 (self)",
-      "fundingAmount": null,
-      "applicationUrl": "https://www.dodsbirsttr.mil/topics-app/",
-      "notes": "Baseline focus is secure tasking at required CUI levels; later phases target a 90% reduction in tasking latency.",
-      "products": [
-        "HAVEN",
         "Hydra"
       ],
       "fitLevel": "High",
@@ -127,26 +44,6 @@
       "archived": false
     },
     {
-      "externalKey": "dod-sbir-anomalous-behavior-maritime",
-      "rawDocumentPath": null,
-      "source": "manual",
-      "name": "Anomalous Behavior Detection and Alerting for Congested Maritime Environments",
-      "objective": "Detect and alert on anomalous vessel/asset behavior in congested maritime environments.",
-      "openDate": "2026-06-24",
-      "closeDate": "2026-07-22",
-      "cmmcRequirement": "Level 2 (self)",
-      "fundingAmount": null,
-      "applicationUrl": "https://www.dodsbirsttr.mil/topics-app/",
-      "notes": "Adjacent fit.",
-      "products": [
-        "Argus"
-      ],
-      "fitLevel": "Adjacent",
-      "matchSource": "manual",
-      "firstSeen": "2026-07-20",
-      "archived": false
-    },
-    {
       "externalKey": "dod-sbir-t3cp-patent-holiday",
       "rawDocumentPath": null,
       "source": "manual",
@@ -165,46 +62,6 @@
         "GoLynk"
       ],
       "fitLevel": "Review",
-      "matchSource": "manual",
-      "firstSeen": "2026-07-20",
-      "archived": false
-    },
-    {
-      "externalKey": "dod-sbir-humanoid-robotic-fleet-management",
-      "rawDocumentPath": null,
-      "source": "manual",
-      "name": "Humanoid Robotic Fleet Management",
-      "objective": "Effectively and efficiently coordinate multiple humanoid and industrial robots for complex tasks in dynamic industrial environments.",
-      "openDate": "2026-06-24",
-      "closeDate": "2026-07-22",
-      "cmmcRequirement": null,
-      "fundingAmount": null,
-      "applicationUrl": "https://www.dodsbirsttr.mil/topics-app/",
-      "notes": "Not yet scored for fit -- fleet coordination angle could map to Argus, but confirm before applying.",
-      "products": [
-        "Argus"
-      ],
-      "fitLevel": "Review",
-      "matchSource": "manual",
-      "firstSeen": "2026-07-20",
-      "archived": false
-    },
-    {
-      "externalKey": "diu-specular-mist-loe3",
-      "rawDocumentPath": null,
-      "source": "manual",
-      "name": "DIU Presents: Specular MIST Prize Challenge -- LOE 3: Passive Electronic Surveillance",
-      "objective": "Provide remotely operable electronic surveillance capabilities at scale to crewed and uncrewed surface platforms; must sense/process the RF environment with remote operator input and provide state-of-the-art cybersecurity compatible with the existing Navy landing zone.",
-      "openDate": "2026-07-08",
-      "closeDate": "2026-07-22",
-      "cmmcRequirement": null,
-      "fundingAmount": null,
-      "applicationUrl": "https://www.diu.mil/work-with-us/submit-solution/PROJ00684",
-      "notes": "Might be worth partnering with someone else for the submission -- Hoplynk's edge is the connectivity/comms layer, not the RF sensing itself.",
-      "products": [
-        "HAVEN"
-      ],
-      "fitLevel": "Adjacent (teaming)",
       "matchSource": "manual",
       "firstSeen": "2026-07-20",
       "archived": false
