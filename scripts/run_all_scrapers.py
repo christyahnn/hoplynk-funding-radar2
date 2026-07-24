@@ -66,26 +66,30 @@ def run_scraped_source(source_name: str, module) -> tuple[int, int]:
         print(f"[{source_name}] fetch failed entirely (both static and Playwright) -- nothing staged")
         return (0, 0)
 
-    # Stage every raw fetch attempt (static, and playwright if it ran), and
-    # point every found opportunity at whichever fetch actually produced
-    # results (the last one in the list -- static if it worked, playwright
-    # if it was needed).
-    raw_paths = []
+    # Stage every raw fetch attempt (listing page(s), and one per opportunity's
+    # own detail page). Build a source_url -> staged_path map so each
+    # opportunity can be linked to the specific raw fetch its content came
+    # from, not just "whichever fetch happened most recently."
+    url_to_raw_path = {}
     for raw in raw_fetches:
         raw_path = file_store.stage_raw_document(
             source=module.SOURCE, raw_content=raw["raw_content"], source_url=raw["source_url"],
             fetch_method=raw["fetch_method"], content_type=raw["content_type"],
             external_id=raw.get("external_id"),
         )
-        raw_paths.append(raw_path)
+        url_to_raw_path[raw["source_url"]] = raw_path
 
-    if opportunities and raw_paths:
-        for opp in opportunities:
-            opp.raw_document_path = raw_paths[-1]
+    for opp in opportunities:
+        # An opportunity's application_url is its own detail page's URL,
+        # which is exactly the source_url used to stage that page's raw
+        # fetch -- so this looks up its own specific raw document, falling
+        # back to the last-staged fetch (typically the listing page) only
+        # if that specific detail-page fetch failed and isn't in the map.
+        opp.raw_document_path = url_to_raw_path.get(opp.application_url) or (list(url_to_raw_path.values())[-1] if url_to_raw_path else None)
 
     file_store.write_normalized(module.SOURCE, [o.to_dashboard_dict() for o in opportunities])
-    print(f"[{source_name}] {len(raw_paths)} raw fetch(es) staged -> {len(opportunities)} relevant opportunit{'y' if len(opportunities)==1 else 'ies'}")
-    return (len(raw_paths), len(opportunities))
+    print(f"[{source_name}] {len(url_to_raw_path)} raw fetch(es) staged -> {len(opportunities)} relevant opportunit{'y' if len(opportunities)==1 else 'ies'}")
+    return (len(url_to_raw_path), len(opportunities))
 
 
 def main():

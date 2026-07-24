@@ -82,19 +82,37 @@ def keyword_matches(text: str) -> list[str]:
     return [product for product, kws in PRODUCT_KEYWORDS.items() if any(kw in text_l for kw in kws)]
 
 
-def is_relevant(text: str) -> bool:
+def all_matched_terms(text: str) -> set[str]:
+    """Every distinct keyword (across product/general/adjacent tiers) found
+    in the text. Used to require multiple corroborating signals rather than
+    letting one stray term (e.g. a single mention of "cyber" in an
+    otherwise-unrelated posting) count as relevant on its own."""
     text_l = text.lower()
-    if keyword_matches(text):
-        return True
-    if any(kw in text_l for kw in GENERAL_KEYWORDS):
-        return True
-    return any(kw in text_l for kw in ADJACENT_KEYWORDS)
+    hits = set()
+    for kws in PRODUCT_KEYWORDS.values():
+        hits.update(kw for kw in kws if kw in text_l)
+    hits.update(kw for kw in GENERAL_KEYWORDS if kw in text_l)
+    hits.update(kw for kw in ADJACENT_KEYWORDS if kw in text_l)
+    return hits
+
+
+MIN_KEYWORD_HITS = 2  # require at least this many distinct terms to matter
+
+
+def is_relevant(text: str) -> bool:
+    """A posting counts as relevant only if it hits at least MIN_KEYWORD_HITS
+    distinct terms across the combined keyword vocabulary -- a single
+    passing mention of one term (e.g. "network" appearing once in an
+    unrelated posting) is too weak a signal on its own and produces noise."""
+    return len(all_matched_terms(text)) >= MIN_KEYWORD_HITS
 
 
 def match_tier(text: str) -> str:
     """'Review' for a product or general-term hit, 'Review (broad match)' for
     an adjacent-only hit. Manual/curated entries use 'High'/'Adjacent'
-    directly and never go through this function."""
+    directly and never go through this function. Assumes is_relevant(text)
+    has already been checked True -- this only decides which tier label to
+    apply, not whether it's relevant at all."""
     text_l = text.lower()
     if keyword_matches(text):
         return "Review"

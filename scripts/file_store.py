@@ -39,7 +39,9 @@ NORMALIZED_DIR = DATA_DIR / "normalized"
 OVERRIDES_FILE = DATA_DIR / "manual-overrides.json"
 MERGED_FILE = DATA_DIR / "opportunities.json"
 
-GRACE_PERIOD_DAYS = 7
+GRACE_PERIOD_DAYS = 0  # kept as a named constant (rather than a bare 0 inline)
+# so it's obvious this was a deliberate choice: only active/open opportunities
+# should show, closed means gone the same day it closes, no lingering window.
 
 
 def _content_hash(text: str) -> str:
@@ -110,9 +112,10 @@ def load_overrides() -> dict:
 
 def merge_and_prune() -> dict:
     """Read every data/normalized/*.json file, apply manual-overrides.json
-    on top, drop anything closed more than GRACE_PERIOD_DAYS ago, and write
-    the final data/opportunities.json the dashboard reads. Returns a small
-    summary dict for logging."""
+    on top, drop anything that's already closed (GRACE_PERIOD_DAYS=0 means
+    no lingering window -- only active/open opportunities make it into the
+    live output), and write the final data/opportunities.json the dashboard
+    reads. Returns a small summary dict for logging."""
     overrides = load_overrides()
     today = date.today()
     cutoff = today - timedelta(days=GRACE_PERIOD_DAYS)

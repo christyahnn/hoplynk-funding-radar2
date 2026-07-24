@@ -31,7 +31,7 @@ import httpx
 from bs4 import BeautifulSoup
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from matching import is_relevant, keyword_matches, match_tier
+from matching import all_matched_terms, is_relevant, keyword_matches, match_tier
 from models import Opportunity
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; HoplynkFundingRadar/2.0)"}
@@ -127,10 +127,33 @@ def extract_opportunities(
     surrounding page block, which is what caused the original nav-link
     false positives)."""
     soup = BeautifulSoup(html, "html.parser")
-    seen_titles = set()
-    results = []
+def _extract_detail_text(html: str) -> str:
+    """Pull real body text out of an opportunity's own detail page -- not
+    the listing page. Strips nav/header/footer/script/style, prefers a
+    <main>/<article> container if present, and keeps only paragraphs long
+    enough to plausibly be real description text (skips short boilerplate
+    lines like button labels that sometimes come through as <p> tags)."""
+    soup = BeautifulSoup(html, "html.parser")
+    for tag in soup(["script", "style", "nav", "header", "footer", "form"]):
+        tag.decompose()
+    container = soup.find("main") or soup.find("article") or soup.find(attrs={"role": "main"}) or soup.body or soup
+    paragraphs = [p.get_text(" ", strip=True) for p in container.find_all("p")]
+    paragraphs = [p for p in paragraphs if len(p) > 40]
+    return " ".join(paragraphs)[:1500].strip()
 
-    for link in soup.select(link_selector):
+
+def _gather_candidates(html: str, base_url: str, required_url_pattern: Optional[str]) -> list[dict]:
+    """Stage 1: pull links off the listing page that survive nav-filtering
+    and show at least a loose keyword signal in the listing snippet alone.
+    Deliberately loose (any single keyword hit, not the strict >=2 relevance
+    bar) -- this list only decides which pages are worth the extra network
+    call to go fetch their real detail page; the strict relevance check
+    happens in stage 2 against the fuller text."""
+    soup = BeautifulSoup(html, "html.parser")
+    seen_titles = set()
+    candidates = []
+
+    for link in soup.select("a"):
         title = link.get_text(strip=True)
         href = link.get("href")
         if not title or not href:
@@ -144,31 +167,79 @@ def extract_opportunities(
         if required_url_pattern and not re.search(required_url_pattern, href):
             continue
 
-        description = ""
+        listing_snippet = ""
         immediate_parent = link.find_parent(["li", "article"])
         if immediate_parent:
             p_tag = immediate_parent.find("p")
             if p_tag and p_tag not in link.find_parents():
-                description = p_tag.get_text(" ", strip=True)
+                listing_snippet = p_tag.get_text(" ", strip=True)
         attr_text = " ".join(filter(None, [link.get("title"), link.get("aria-label")]))
+        loose_text = f"{title} {listing_snippet} {attr_text}"
 
-        match_text = f"{title} {description} {attr_text}"
-        if not is_relevant(match_text):
+        if not all_matched_terms(loose_text):  # zero keyword hits at all -- not worth a detail-page fetch
             continue
 
         seen_titles.add(title)
-        results.append(Opportunity(
-            external_key=f"{source}:{_slugify(title)}",
+        candidates.append({"title": title, "href": href, "listing_snippet": listing_snippet})
+    return candidates
+
+
+def extract_opportunities(
+    html: str,
+    base_url: str,
+    source: str,
+    raw_document_path: Optional[str] = None,
+    required_url_pattern: Optional[str] = None,
+) -> tuple[list[Opportunity], list[dict]]:
+    """Two-stage extraction. Stage 1 (_gather_candidates) finds links worth
+    a second look from the listing page alone. Stage 2 fetches each
+    candidate's own detail page for its real description, and only then
+    applies the strict is_relevant() bar against title+real-description
+    combined -- both because that's a better relevance signal than the thin
+    listing snippet, and because the detail page is where an actual
+    objective/description worth showing on the dashboard lives.
+
+    Returns (opportunities, detail_page_raw_fetches) -- the caller is
+    responsible for staging detail_page_raw_fetches, same as the listing
+    page's own raw fetch."""
+    candidates = _gather_candidates(html, base_url, required_url_pattern)
+    opportunities = []
+    detail_raw_fetches = []
+
+    for candidate in candidates:
+        detail_text = ""
+        try:
+            detail_html = fetch_static(candidate["href"])
+            detail_raw_fetches.append({
+                "raw_content": detail_html, "source_url": candidate["href"],
+                "fetch_method": "static_scrape", "content_type": "html",
+                "external_id": None,
+            })
+            detail_text = _extract_detail_text(detail_html)
+        except Exception as e:
+            print(f"[{source}] detail-page fetch failed for {candidate['href']}: {e}", file=sys.stderr)
+
+        # Fall back to the listing snippet if the detail page fetch failed
+        # or came back too thin to be useful.
+        objective = detail_text if len(detail_text) > 40 else candidate["listing_snippet"]
+        match_text = f"{candidate['title']} {objective}"
+
+        if not is_relevant(match_text):
+            continue
+
+        opportunities.append(Opportunity(
+            external_key=f"{source}:{_slugify(candidate['title'])}",
             raw_document_path=raw_document_path,
             source=source,
-            name=title,
-            objective=description or "Auto-collected lead -- confirm details on the source page.",
-            application_url=href,
+            name=candidate["title"],
+            objective=objective or "Auto-collected lead -- confirm details on the source page.",
+            application_url=candidate["href"],
             notes="Picked up by keyword scan; not yet manually reviewed.",
             products=keyword_matches(match_text),
             fit_level=match_tier(match_text),
         ))
-    return results
+
+    return opportunities, detail_raw_fetches
 
 
 def scrape(source: str, url: str, required_url_pattern: Optional[str] = None) -> tuple[list[dict], list[Opportunity]]:
@@ -185,7 +256,8 @@ def scrape(source: str, url: str, required_url_pattern: Optional[str] = None) ->
             "raw_content": html, "source_url": url,
             "fetch_method": "static_scrape", "content_type": "html", "external_id": None,
         })
-        opportunities = extract_opportunities(html, url, source, required_url_pattern=required_url_pattern)
+        opportunities, detail_raw_fetches = extract_opportunities(html, url, source, required_url_pattern=required_url_pattern)
+        raw_fetches.extend(detail_raw_fetches)
     except Exception as e:
         print(f"[{source}] static fetch failed: {e}", file=sys.stderr)
 
@@ -197,7 +269,8 @@ def scrape(source: str, url: str, required_url_pattern: Optional[str] = None) ->
                 "raw_content": html, "source_url": url,
                 "fetch_method": "playwright", "content_type": "html", "external_id": None,
             })
-            opportunities = extract_opportunities(html, url, source, required_url_pattern=required_url_pattern)
+            opportunities, detail_raw_fetches = extract_opportunities(html, url, source, required_url_pattern=required_url_pattern)
+            raw_fetches.extend(detail_raw_fetches)
         except ImportError:
             print(f"[{source}] playwright not installed, skipping dynamic fallback", file=sys.stderr)
         except Exception as e:
