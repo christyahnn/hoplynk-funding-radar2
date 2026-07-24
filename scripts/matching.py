@@ -96,7 +96,7 @@ def all_matched_terms(text: str) -> set[str]:
     return hits
 
 
-MIN_KEYWORD_HITS = 3  # total distinct terms required (product + general + adjacent combined)
+MIN_KEYWORD_HITS = 4  # total distinct terms required (product + general + adjacent combined)
 
 
 def is_relevant(text: str) -> bool:
