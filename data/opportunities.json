@@ -1,9 +1,9 @@
 {
-  "lastScan": "2026-07-24T22:37:49.934933Z",
+  "lastScan": "2026-07-25T03:59:39.366885Z",
   "opportunities": [
     {
       "externalKey": "diu:autonomous-warfareground-based-affordable-mass-prize-challengeclosing-2026-08-05",
-      "rawDocumentPath": "data/raw/diu/e4d5851ea708cb52.json",
+      "rawDocumentPath": "data/raw/diu/77f4ccf324aafb68.json",
       "source": "diu",
       "name": "Autonomous WarfareGround-Based Affordable Mass Prize ChallengeClosing: 2026-08-05 23:59:59 US/Eastern Time\u219701",
       "objective": "Future conflicts will require the Joint Force to generate affordable long-range effects at a scale, cost, and pace that current inventories alone cannot support. Existing long-range precision fires remain critical for defeating hardened, defended, and strategically significant targets, but their cost and limited inventories make them difficult to employ at the volume required for sustained operations against a peer adversary. Complementing these capabilities with affordable, scalable long-range effects will enable commanders to service a broader target set, preserve exquisite munitions for their intended purpose, and sustain operational tempo throughout a prolonged conflict. Through Ground-Based Affordable Mass (G-BAM), the Department of War (DOW) is seeking mature, affordable, long-range precision strike systems that can be demonstrated within 60-90 days, certified, and scaled into production within 12-18 months. Aligned with the Direct Reporting Portfolio Manager for Unmanned Systems (DRPM-UxS) mandate to field low-cost autonomous capabilities at scale, the Government is particularly interested in mature, proven solutions that deliver favorable cost-per-effect at operationally relevant ranges while minimizing the logistical, training, and sustainment burden on employing units. This effort is intended to provide a common assessment and transition pathway for multiple DOW stakeholders. Successful solutions may be eligible for follow-on prototype agreements, production awards",
@@ -200,24 +200,6 @@
       "archived": false
     },
     {
-      "externalKey": "grants_gov:360991",
-      "rawDocumentPath": "data/raw/grants_gov/d662df14bc3110d5.json",
-      "source": "grants_gov",
-      "name": "Rural Health Network Advancement Program",
-      "objective": "Auto-collected lead -- confirm details on Grants.gov.",
-      "openDate": "2026-06-24",
-      "closeDate": "2026-07-24",
-      "cmmcRequirement": null,
-      "fundingAmount": null,
-      "applicationUrl": "https://www.grants.gov/search-results-detail/360991",
-      "notes": "Picked up by keyword scan; not yet manually reviewed.",
-      "products": [],
-      "fitLevel": "Review",
-      "matchSource": "keyword",
-      "firstSeen": "2026-07-24",
-      "archived": false
-    },
-    {
       "externalKey": "grants_gov:360645",
       "rawDocumentPath": "data/raw/grants_gov/d662df14bc3110d5.json",
       "source": "grants_gov",
@@ -282,24 +264,6 @@
       "cmmcRequirement": null,
       "fundingAmount": null,
       "applicationUrl": "https://www.grants.gov/search-results-detail/358935",
-      "notes": "Picked up by keyword scan; not yet manually reviewed.",
-      "products": [],
-      "fitLevel": "Review",
-      "matchSource": "keyword",
-      "firstSeen": "2026-07-24",
-      "archived": false
-    },
-    {
-      "externalKey": "grants_gov:360711",
-      "rawDocumentPath": "data/raw/grants_gov/d662df14bc3110d5.json",
-      "source": "grants_gov",
-      "name": "Enhancing sustainable health information and laboratory systems and networks for quality detection, management, and monitoring to end HIV and TB as public health threats in India",
-      "objective": "Auto-collected lead -- confirm details on Grants.gov.",
-      "openDate": "2026-06-24",
-      "closeDate": "2026-07-24",
-      "cmmcRequirement": null,
-      "fundingAmount": null,
-      "applicationUrl": "https://www.grants.gov/search-results-detail/360711",
       "notes": "Picked up by keyword scan; not yet manually reviewed.",
       "products": [],
       "fitLevel": "Review",
@@ -1787,26 +1751,8 @@
       "archived": false
     },
     {
-      "externalKey": "sam_gov:b92eec4513f64c2587fc217c8e4aecc2",
-      "rawDocumentPath": "data/raw/sam_gov/16c52160f9bcfae5.json",
-      "source": "sam_gov",
-      "name": "Naval Enterprise Networks (NEN) and Integrated Product Team (IPT)  Engineering, Integration, and Program Management",
-      "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b92eec4513f64c2587fc217c8e4aecc2",
-      "openDate": "2026-06-23",
-      "closeDate": "2026-07-24",
-      "cmmcRequirement": null,
-      "fundingAmount": null,
-      "applicationUrl": "https://sam.gov/workspace/contract/opp/b92eec4513f64c2587fc217c8e4aecc2/view",
-      "notes": "Picked up by keyword scan; not yet manually reviewed.",
-      "products": [],
-      "fitLevel": "Review",
-      "matchSource": "keyword",
-      "firstSeen": "2026-07-24",
-      "archived": false
-    },
-    {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/946820408dde0f65.json",
+      "rawDocumentPath": "data/raw/sam_gov/48af1ca66362fb77.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -1968,7 +1914,7 @@
     },
     {
       "externalKey": "sam_gov:2f380d44e6b54c3d80d9ac9bf0d05fed",
-      "rawDocumentPath": "data/raw/sam_gov/4ab97ba4a7fc133a.json",
+      "rawDocumentPath": "data/raw/sam_gov/de633c922cf621d2.json",
       "source": "sam_gov",
       "name": "MOUNT,RESILIENT,GEN",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2f380d44e6b54c3d80d9ac9bf0d05fed",
@@ -2040,7 +1986,7 @@
     },
     {
       "externalKey": "sam_gov:4232971a8f3448f79d3691dd3a264adb",
-      "rawDocumentPath": "data/raw/sam_gov/ad0dacfd7d3ac99c.json",
+      "rawDocumentPath": "data/raw/sam_gov/2b73ba031753dde3.json",
       "source": "sam_gov",
       "name": "Other Transaction Authority (OTA) Consortium Request for Proposals (RFP) Seabed-Subsea, Littoral, Asymmetric-Autonomous, Mining and Mine Hunting, Expeditionary, Robotic (SLAM2ER) Consortium",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4232971a8f3448f79d3691dd3a264adb",
@@ -2078,7 +2024,7 @@
     },
     {
       "externalKey": "spacewerx:velocity-cyberspace-warfare-for-space-industry-engagement-day",
-      "rawDocumentPath": "data/raw/spacewerx/48f840395110b3bb.json",
+      "rawDocumentPath": "data/raw/spacewerx/a93d05cc1d6ffaef.json",
       "source": "spacewerx",
       "name": "Velocity: Cyberspace Warfare for Space Industry Engagement Day",
       "objective": "Want to work on real cybersecurity challenges for U.S. space systems? SpaceWERX and the 6th Sustainment Squadron are bringing together government and industry on July 14 in El Segundo, California for Velocity: Cyberspace Warfare for Space Industry Engagement Day . The event runs 1 \u2013 6 p.m. PT and includes keynote briefings, a live Q&A panel, technical breakouts, and networking with the teams making acquisition decisions. There are also SBIR/STTR funding opportunities tied to this release. Spots are limited; register today!",
