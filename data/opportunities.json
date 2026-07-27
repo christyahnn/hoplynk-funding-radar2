@@ -1,9 +1,9 @@
 {
-  "lastScan": "2026-07-26T14:38:57.734206Z",
+  "lastScan": "2026-07-27T04:33:21.312726Z",
   "opportunities": [
     {
       "externalKey": "diu:autonomous-warfareground-based-affordable-mass-prize-challengeclosing-2026-08-05",
-      "rawDocumentPath": "data/raw/diu/3f502653a7216486.json",
+      "rawDocumentPath": "data/raw/diu/40377d4a8271f140.json",
       "source": "diu",
       "name": "Autonomous WarfareGround-Based Affordable Mass Prize ChallengeClosing: 2026-08-05 23:59:59 US/Eastern Time\u219701",
       "objective": "Future conflicts will require the Joint Force to generate affordable long-range effects at a scale, cost, and pace that current inventories alone cannot support. Existing long-range precision fires remain critical for defeating hardened, defended, and strategically significant targets, but their cost and limited inventories make them difficult to employ at the volume required for sustained operations against a peer adversary. Complementing these capabilities with affordable, scalable long-range effects will enable commanders to service a broader target set, preserve exquisite munitions for their intended purpose, and sustain operational tempo throughout a prolonged conflict. Through Ground-Based Affordable Mass (G-BAM), the Department of War (DOW) is seeking mature, affordable, long-range precision strike systems that can be demonstrated within 60-90 days, certified, and scaled into production within 12-18 months. Aligned with the Direct Reporting Portfolio Manager for Unmanned Systems (DRPM-UxS) mandate to field low-cost autonomous capabilities at scale, the Government is particularly interested in mature, proven solutions that deliver favorable cost-per-effect at operationally relevant ranges while minimizing the logistical, training, and sustainment burden on employing units. This effort is intended to provide a common assessment and transition pathway for multiple DOW stakeholders. Successful solutions may be eligible for follow-on prototype agreements, production awards",
@@ -1752,7 +1752,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/e6b492e3cef2e0df.json",
+      "rawDocumentPath": "data/raw/sam_gov/4bd5e771c378bfdb.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -1914,7 +1914,7 @@
     },
     {
       "externalKey": "sam_gov:2f380d44e6b54c3d80d9ac9bf0d05fed",
-      "rawDocumentPath": "data/raw/sam_gov/0cda4090869d3699.json",
+      "rawDocumentPath": "data/raw/sam_gov/ddc6e61bb2df911d.json",
       "source": "sam_gov",
       "name": "MOUNT,RESILIENT,GEN",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2f380d44e6b54c3d80d9ac9bf0d05fed",
@@ -1986,7 +1986,7 @@
     },
     {
       "externalKey": "sam_gov:4232971a8f3448f79d3691dd3a264adb",
-      "rawDocumentPath": "data/raw/sam_gov/db643b11379ceb51.json",
+      "rawDocumentPath": "data/raw/sam_gov/8d9d6064ec20cd9f.json",
       "source": "sam_gov",
       "name": "Other Transaction Authority (OTA) Consortium Request for Proposals (RFP) Seabed-Subsea, Littoral, Asymmetric-Autonomous, Mining and Mine Hunting, Expeditionary, Robotic (SLAM2ER) Consortium",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4232971a8f3448f79d3691dd3a264adb",
@@ -2024,7 +2024,7 @@
     },
     {
       "externalKey": "spacewerx:velocity-cyberspace-warfare-for-space-industry-engagement-day",
-      "rawDocumentPath": "data/raw/spacewerx/ce84072dcd8cca1e.json",
+      "rawDocumentPath": "data/raw/spacewerx/65091c8cb524b080.json",
       "source": "spacewerx",
       "name": "Velocity: Cyberspace Warfare for Space Industry Engagement Day",
       "objective": "Want to work on real cybersecurity challenges for U.S. space systems? SpaceWERX and the 6th Sustainment Squadron are bringing together government and industry on July 14 in El Segundo, California for Velocity: Cyberspace Warfare for Space Industry Engagement Day . The event runs 1 \u2013 6 p.m. PT and includes keynote briefings, a live Q&A panel, technical breakouts, and networking with the teams making acquisition decisions. There are also SBIR/STTR funding opportunities tied to this release. Spots are limited; register today!",
