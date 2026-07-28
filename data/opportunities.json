@@ -1,9 +1,9 @@
 {
-  "lastScan": "2026-07-27T15:44:16.670038Z",
+  "lastScan": "2026-07-28T03:57:54.745813Z",
   "opportunities": [
     {
       "externalKey": "diu:autonomous-warfareground-based-affordable-mass-prize-challengeclosing-2026-08-05",
-      "rawDocumentPath": "data/raw/diu/f815556fca99533e.json",
+      "rawDocumentPath": "data/raw/diu/9184a4fef1f15aa8.json",
       "source": "diu",
       "name": "Autonomous WarfareGround-Based Affordable Mass Prize ChallengeClosing: 2026-08-05 23:59:59 US/Eastern Time\u219701",
       "objective": "Future conflicts will require the Joint Force to generate affordable long-range effects at a scale, cost, and pace that current inventories alone cannot support. Existing long-range precision fires remain critical for defeating hardened, defended, and strategically significant targets, but their cost and limited inventories make them difficult to employ at the volume required for sustained operations against a peer adversary. Complementing these capabilities with affordable, scalable long-range effects will enable commanders to service a broader target set, preserve exquisite munitions for their intended purpose, and sustain operational tempo throughout a prolonged conflict. Through Ground-Based Affordable Mass (G-BAM), the Department of War (DOW) is seeking mature, affordable, long-range precision strike systems that can be demonstrated within 60-90 days, certified, and scaled into production within 12-18 months. Aligned with the Direct Reporting Portfolio Manager for Unmanned Systems (DRPM-UxS) mandate to field low-cost autonomous capabilities at scale, the Government is particularly interested in mature, proven solutions that deliver favorable cost-per-effect at operationally relevant ranges while minimizing the logistical, training, and sustainment burden on employing units. This effort is intended to provide a common assessment and transition pathway for multiple DOW stakeholders. Successful solutions may be eligible for follow-on prototype agreements, production awards",
@@ -992,24 +992,6 @@
       "archived": false
     },
     {
-      "externalKey": "grants_gov:362467",
-      "rawDocumentPath": "data/raw/grants_gov/d662df14bc3110d5.json",
-      "source": "grants_gov",
-      "name": "Recovery Community Services Program - Statewide Network",
-      "objective": "Auto-collected lead -- confirm details on Grants.gov.",
-      "openDate": "2026-07-01",
-      "closeDate": "2026-07-27",
-      "cmmcRequirement": null,
-      "fundingAmount": null,
-      "applicationUrl": "https://www.grants.gov/search-results-detail/362467",
-      "notes": "Picked up by keyword scan; not yet manually reviewed.",
-      "products": [],
-      "fitLevel": "Review",
-      "matchSource": "keyword",
-      "firstSeen": "2026-07-24",
-      "archived": false
-    },
-    {
       "externalKey": "grants_gov:363095",
       "rawDocumentPath": "data/raw/grants_gov/d662df14bc3110d5.json",
       "source": "grants_gov",
@@ -1752,7 +1734,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/4bd5e771c378bfdb.json",
+      "rawDocumentPath": "data/raw/sam_gov/1f381dd0c6caee23.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -1914,7 +1896,7 @@
     },
     {
       "externalKey": "sam_gov:2f380d44e6b54c3d80d9ac9bf0d05fed",
-      "rawDocumentPath": "data/raw/sam_gov/ddc6e61bb2df911d.json",
+      "rawDocumentPath": "data/raw/sam_gov/2b816e5e95906220.json",
       "source": "sam_gov",
       "name": "MOUNT,RESILIENT,GEN",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2f380d44e6b54c3d80d9ac9bf0d05fed",
@@ -1986,7 +1968,7 @@
     },
     {
       "externalKey": "sam_gov:4232971a8f3448f79d3691dd3a264adb",
-      "rawDocumentPath": "data/raw/sam_gov/8d9d6064ec20cd9f.json",
+      "rawDocumentPath": "data/raw/sam_gov/519e7f65cc7b1f74.json",
       "source": "sam_gov",
       "name": "Other Transaction Authority (OTA) Consortium Request for Proposals (RFP) Seabed-Subsea, Littoral, Asymmetric-Autonomous, Mining and Mine Hunting, Expeditionary, Robotic (SLAM2ER) Consortium",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4232971a8f3448f79d3691dd3a264adb",
@@ -2024,7 +2006,7 @@
     },
     {
       "externalKey": "spacewerx:velocity-cyberspace-warfare-for-space-industry-engagement-day",
-      "rawDocumentPath": "data/raw/spacewerx/d948d8ea0fc24278.json",
+      "rawDocumentPath": "data/raw/spacewerx/e4f22f3d44c04a79.json",
       "source": "spacewerx",
       "name": "Velocity: Cyberspace Warfare for Space Industry Engagement Day",
       "objective": "Want to work on real cybersecurity challenges for U.S. space systems? SpaceWERX and the 6th Sustainment Squadron are bringing together government and industry on July 14 in El Segundo, California for Velocity: Cyberspace Warfare for Space Industry Engagement Day . The event runs 1 \u2013 6 p.m. PT and includes keynote briefings, a live Q&A panel, technical breakouts, and networking with the teams making acquisition decisions. There are also SBIR/STTR funding opportunities tied to this release. Spots are limited; register today!",
