@@ -1,9 +1,9 @@
 {
-  "lastScan": "2026-07-29T15:10:59.028699Z",
+  "lastScan": "2026-07-30T03:52:56.970308Z",
   "opportunities": [
     {
       "externalKey": "diu:autonomous-warfareground-based-affordable-mass-prize-challengeclosing-2026-08-05",
-      "rawDocumentPath": "data/raw/diu/d85509eb01fa7cd0.json",
+      "rawDocumentPath": "data/raw/diu/e33b8e796b3e277f.json",
       "source": "diu",
       "name": "Autonomous WarfareGround-Based Affordable Mass Prize ChallengeClosing: 2026-08-05 23:59:59 US/Eastern Time\u219702",
       "objective": "Future conflicts will require the Joint Force to generate affordable long-range effects at a scale, cost, and pace that current inventories alone cannot support. Existing long-range precision fires remain critical for defeating hardened, defended, and strategically significant targets, but their cost and limited inventories make them difficult to employ at the volume required for sustained operations against a peer adversary. Complementing these capabilities with affordable, scalable long-range effects will enable commanders to service a broader target set, preserve exquisite munitions for their intended purpose, and sustain operational tempo throughout a prolonged conflict. Through Ground-Based Affordable Mass (G-BAM), the Department of War (DOW) is seeking mature, affordable, long-range precision strike systems that can be demonstrated within 60-90 days, certified, and scaled into production within 12-18 months. Aligned with the Direct Reporting Portfolio Manager for Unmanned Systems (DRPM-UxS) mandate to field low-cost autonomous capabilities at scale, the Government is particularly interested in mature, proven solutions that deliver favorable cost-per-effect at operationally relevant ranges while minimizing the logistical, training, and sustainment burden on employing units. This effort is intended to provide a common assessment and transition pathway for multiple DOW stakeholders. Successful solutions may be eligible for follow-on prototype agreements, production awards",
@@ -21,7 +21,7 @@
     },
     {
       "externalKey": "diu:autonomous-warfaresuitable-warfighting-adaptive-payloads-swap-usv-closing-2026-0",
-      "rawDocumentPath": "data/raw/diu/5d0a06c24b5e3875.json",
+      "rawDocumentPath": "data/raw/diu/ac5ce262317d6279.json",
       "source": "diu",
       "name": "Autonomous WarfareSuitable Warfighting Adaptive Payloads (SWAP-USV)Closing: 2026-08-10 23:59:59 US/Eastern Time\u219701",
       "objective": "The cost-exchange ratio for detecting and neutralizing asymmetric maritime threats in contested environments is heavily skewed in favor of the adversary. Bad actors deploy low-cost, low-signature threats\u2014including explosive Unmanned Surface Vessels (USVs), Group 1\u20133 Unmanned Aircraft System (UASs), \"go-fast\" smuggling boats, and semi-submersibles. Currently, the Department of War (DoW) relies on exquisite, multi-million-dollar naval and aviation assets to intercept these inexpensive targets. The Government requires affordable, scalable, production-ready maritime systems capable of persistent search, tracking, and operational effects against asymmetric threats. The Government seeks innovation combinations of USVs and UASs that maximize operational effectiveness while improving the cost-exchange ratio across a range of mission profiles. The Government and the Department of War Innovation Unit (DIU) seek to partner with established maritime manufacturers, autonomy developers, sensor manufacturers, and UAS developers to execute a multi-phase Prize Challenge under 10 USC 4025 with up to $100M in available funding. The DoW is relying on industry to provide inexpensive and scalable solutions that combine proven USVs with mature drone capabilities to extend sensing, targeting, communications, and defeat of hostile threats through kinetic and non-kinetic effects at scale. This competition will be executed as a 12-Month Prize Challenge with rolling submission windows divided into three",
@@ -1699,24 +1699,6 @@
       "archived": false
     },
     {
-      "externalKey": "sam_gov:a05b18ada9eb4eee9260d157a553a1ac",
-      "rawDocumentPath": "data/raw/sam_gov/16c52160f9bcfae5.json",
-      "source": "sam_gov",
-      "name": "NAWCAD WOLF IC2IS MISSION SPECIFIC NETWORK ENGINEERING (MSNE)",
-      "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a05b18ada9eb4eee9260d157a553a1ac",
-      "openDate": "2026-07-16",
-      "closeDate": "2026-07-29",
-      "cmmcRequirement": null,
-      "fundingAmount": null,
-      "applicationUrl": "https://sam.gov/workspace/contract/opp/a05b18ada9eb4eee9260d157a553a1ac/view",
-      "notes": "Picked up by keyword scan; not yet manually reviewed.",
-      "products": [],
-      "fitLevel": "Review",
-      "matchSource": "keyword",
-      "firstSeen": "2026-07-24",
-      "archived": false
-    },
-    {
       "externalKey": "sam_gov:99fba0f98d9441dcac4553c657c9e225",
       "rawDocumentPath": "data/raw/sam_gov/16c52160f9bcfae5.json",
       "source": "sam_gov",
@@ -1754,7 +1736,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/01577dd814e484cb.json",
+      "rawDocumentPath": "data/raw/sam_gov/16398fcbdb3ccc9e.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -1781,24 +1763,6 @@
       "cmmcRequirement": null,
       "fundingAmount": null,
       "applicationUrl": "https://sam.gov/workspace/contract/opp/fba41c62efbc471b9250d623dc52e5f4/view",
-      "notes": "Picked up by keyword scan; not yet manually reviewed.",
-      "products": [],
-      "fitLevel": "Review",
-      "matchSource": "keyword",
-      "firstSeen": "2026-07-24",
-      "archived": false
-    },
-    {
-      "externalKey": "sam_gov:54c224243276476d83904309c7225a3b",
-      "rawDocumentPath": "data/raw/sam_gov/946820408dde0f65.json",
-      "source": "sam_gov",
-      "name": "Communications Headquarters Facility - DMAFB",
-      "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=54c224243276476d83904309c7225a3b",
-      "openDate": "2026-07-17",
-      "closeDate": "2026-07-29",
-      "cmmcRequirement": null,
-      "fundingAmount": null,
-      "applicationUrl": "https://sam.gov/workspace/contract/opp/54c224243276476d83904309c7225a3b/view",
       "notes": "Picked up by keyword scan; not yet manually reviewed.",
       "products": [],
       "fitLevel": "Review",
@@ -1897,26 +1861,8 @@
       "archived": false
     },
     {
-      "externalKey": "sam_gov:bb49a69d727e45f891005ac34cb3d310",
-      "rawDocumentPath": "data/raw/sam_gov/4ab97ba4a7fc133a.json",
-      "source": "sam_gov",
-      "name": "Disruption through Intelligent Strategies, Counter Options, and Resilient Defenses (DISCORD)",
-      "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=bb49a69d727e45f891005ac34cb3d310",
-      "openDate": "2026-07-09",
-      "closeDate": "2026-07-29",
-      "cmmcRequirement": null,
-      "fundingAmount": null,
-      "applicationUrl": "https://sam.gov/workspace/contract/opp/bb49a69d727e45f891005ac34cb3d310/view",
-      "notes": "Picked up by keyword scan; not yet manually reviewed.",
-      "products": [],
-      "fitLevel": "Review",
-      "matchSource": "keyword",
-      "firstSeen": "2026-07-24",
-      "archived": false
-    },
-    {
       "externalKey": "sam_gov:2f380d44e6b54c3d80d9ac9bf0d05fed",
-      "rawDocumentPath": "data/raw/sam_gov/e7395d79a9f29693.json",
+      "rawDocumentPath": "data/raw/sam_gov/46adbc664e723d34.json",
       "source": "sam_gov",
       "name": "MOUNT,RESILIENT,GEN",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2f380d44e6b54c3d80d9ac9bf0d05fed",
@@ -1988,7 +1934,7 @@
     },
     {
       "externalKey": "sam_gov:4232971a8f3448f79d3691dd3a264adb",
-      "rawDocumentPath": "data/raw/sam_gov/d903c0c280a88a12.json",
+      "rawDocumentPath": "data/raw/sam_gov/99e52c8b78ec4738.json",
       "source": "sam_gov",
       "name": "Other Transaction Authority (OTA) Consortium Request for Proposals (RFP) Seabed-Subsea, Littoral, Asymmetric-Autonomous, Mining and Mine Hunting, Expeditionary, Robotic (SLAM2ER) Consortium",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4232971a8f3448f79d3691dd3a264adb",
@@ -2001,24 +1947,6 @@
       "products": [
         "GoLynk"
       ],
-      "fitLevel": "Review",
-      "matchSource": "keyword",
-      "firstSeen": "2026-07-24",
-      "archived": false
-    },
-    {
-      "externalKey": "sam_gov:b9c0dcbb1b4e4eeb88074a757ae0b1de",
-      "rawDocumentPath": "data/raw/sam_gov/8bc61277e07bc73b.json",
-      "source": "sam_gov",
-      "name": "UNMANNED VEHICLE & SONAR",
-      "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b9c0dcbb1b4e4eeb88074a757ae0b1de",
-      "openDate": "2026-07-22",
-      "closeDate": "2026-07-29",
-      "cmmcRequirement": null,
-      "fundingAmount": null,
-      "applicationUrl": "https://sam.gov/workspace/contract/opp/b9c0dcbb1b4e4eeb88074a757ae0b1de/view",
-      "notes": "Picked up by keyword scan; not yet manually reviewed.",
-      "products": [],
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
