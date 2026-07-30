@@ -110,15 +110,28 @@ def load_overrides() -> dict:
     return json.loads(OVERRIDES_FILE.read_text())
 
 
+STALE_AFTER_DAYS = 3  # an automated (non-manual) opportunity not re-confirmed
+# by an actual successful scan within this many days gets excluded from the
+# live output. This is what stops old matches from a since-tightened
+# keyword threshold (or a source that's since started silently failing)
+# from sitting in opportunities.json forever -- source of truth is "was
+# this genuinely seen again recently," not just "was it ever seen once."
+# Manually-curated entries (source == "manual") are exempt -- they're not
+# expected to be re-confirmed by any scraper.
+
+
 def merge_and_prune() -> dict:
     """Read every data/normalized/*.json file, apply manual-overrides.json
     on top, drop anything that's already closed (GRACE_PERIOD_DAYS=0 means
     no lingering window -- only active/open opportunities make it into the
-    live output), and write the final data/opportunities.json the dashboard
-    reads. Returns a small summary dict for logging."""
+    live output), drop anything automated that hasn't been re-confirmed by
+    a scan within STALE_AFTER_DAYS, and write the final
+    data/opportunities.json the dashboard reads. Returns a small summary
+    dict for logging."""
     overrides = load_overrides()
     today = date.today()
     cutoff = today - timedelta(days=GRACE_PERIOD_DAYS)
+    stale_cutoff = today - timedelta(days=STALE_AFTER_DAYS)
 
     all_opps = []
     per_source_counts = {}
@@ -128,7 +141,7 @@ def merge_and_prune() -> dict:
             per_source_counts[source_file.stem] = len(items)
             all_opps.extend(items)
 
-    kept, archived, overridden = [], 0, 0
+    kept, archived, stale, overridden = [], 0, 0, 0
     for opp in all_opps:
         key = opp.get("externalKey")
         if key in overrides:
@@ -149,6 +162,17 @@ def merge_and_prune() -> dict:
             except ValueError:
                 pass  # unparseable date -- keep rather than silently drop
 
+        if opp.get("source") != "manual":
+            last_seen_str = opp.get("lastSeen")
+            if last_seen_str:
+                try:
+                    last_seen = datetime.fromisoformat(last_seen_str[:10]).date()
+                    if last_seen < stale_cutoff:
+                        stale += 1
+                        continue
+                except ValueError:
+                    pass
+
         kept.append(opp)
 
     output = {"lastScan": datetime.utcnow().isoformat() + "Z", "opportunities": kept}
@@ -159,5 +183,6 @@ def merge_and_prune() -> dict:
         "total_before_prune": len(all_opps),
         "kept": len(kept),
         "archived_or_expired": archived,
+        "stale_not_reconfirmed": stale,
         "overrides_applied": overridden,
     }

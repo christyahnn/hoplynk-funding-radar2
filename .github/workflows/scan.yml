@@ -2,8 +2,13 @@ name: Scan funding sources
 
 on:
   schedule:
-    - cron: "0 13 * * *"   # ~6am Pacific / 9am Eastern
-    - cron: "0 1 * * *"    # ~6pm Pacific / 9pm Eastern
+    - cron: "17 13 * * *"   # ~6am Pacific / 9am Eastern -- off the hour on purpose
+    - cron: "43 1 * * *"    # ~6pm Pacific / 9pm Eastern -- off the hour on purpose
+    # Off-the-hour minutes are deliberate: a huge number of unrelated GitHub
+    # Actions jobs are scheduled for exactly :00, so SBIR.gov's rate limiter
+    # (shared across every job running on GitHub's IP ranges) gets hit
+    # hardest right at the top of each hour. Landing a few minutes off that
+    # reduces how often this job collides with that spike.
   workflow_dispatch: {}
 
 permissions:

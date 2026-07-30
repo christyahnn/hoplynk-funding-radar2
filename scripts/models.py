@@ -48,6 +48,7 @@ class Opportunity(BaseModel):
     fit_level: FitLevel = FitLevel.REVIEW
     match_source: str = "keyword"
     first_seen: date = Field(default_factory=date.today)
+    last_seen: date = Field(default_factory=date.today)
     archived: bool = False
 
     @field_validator("products")

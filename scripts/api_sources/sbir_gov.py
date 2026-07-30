@@ -10,7 +10,9 @@ environment, so field-name fallbacks below are best-effort until confirmed.
 from __future__ import annotations
 
 import json
+import random
 import sys
+import time
 from datetime import datetime, date
 from pathlib import Path
 from typing import Optional
@@ -24,6 +26,9 @@ from models import Opportunity
 SOURCE = "sbir_gov"
 API_URL = "https://api.www.sbir.gov/public/api/solicitations"
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; HoplynkFundingRadar/2.0)"}
+
+MAX_RETRIES = 4
+BASE_BACKOFF_SECONDS = 8  # doubles each retry: ~8s, 16s, 32s, 64s, plus jitter
 
 
 def _parse_date(value) -> Optional[date]:
@@ -39,16 +44,40 @@ def _parse_date(value) -> Optional[date]:
 
 def fetch() -> list[dict]:
     """Returns a list with one raw-fetch record (kept as a list for a
-    consistent interface with multi-query sources like sam_gov)."""
-    resp = httpx.get(API_URL, params={"agency": "DOD", "open": 1, "rows": 100}, headers=HEADERS, timeout=30)
-    resp.raise_for_status()
-    return [{
-        "raw_content": resp.text,
-        "source_url": str(resp.request.url),
-        "fetch_method": "api",
-        "content_type": "json",
-        "external_id": None,
-    }]
+    consistent interface with multi-query sources like sam_gov).
+
+    GitHub Actions runners share IP ranges across many unrelated jobs, so a
+    429 here often isn't about this project's own request volume -- it's
+    the shared IP getting caught by SBIR.gov's rate limiter. Retries with
+    exponential backoff, honoring the server's own Retry-After header when
+    it sends one, since that's the most reliable signal for how long to
+    actually wait."""
+    last_exception = None
+    for attempt in range(MAX_RETRIES):
+        try:
+            resp = httpx.get(API_URL, params={"agency": "DOD", "open": 1, "rows": 100}, headers=HEADERS, timeout=30)
+            if resp.status_code == 429:
+                retry_after = resp.headers.get("Retry-After")
+                wait = float(retry_after) if retry_after else BASE_BACKOFF_SECONDS * (2 ** attempt) + random.uniform(0, 3)
+                print(f"[sbir_gov] 429 rate limited (attempt {attempt + 1}/{MAX_RETRIES}) -- waiting {wait:.1f}s", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            return [{
+                "raw_content": resp.text,
+                "source_url": str(resp.request.url),
+                "fetch_method": "api",
+                "content_type": "json",
+                "external_id": None,
+            }]
+        except httpx.HTTPError as e:
+            last_exception = e
+            wait = BASE_BACKOFF_SECONDS * (2 ** attempt) + random.uniform(0, 3)
+            print(f"[sbir_gov] fetch error on attempt {attempt + 1}/{MAX_RETRIES} ({e}) -- retrying in {wait:.1f}s", file=sys.stderr)
+            time.sleep(wait)
+
+    print(f"[sbir_gov] giving up after {MAX_RETRIES} attempts. Last error: {last_exception}", file=sys.stderr)
+    return []
 
 
 def parse(raw_content: str, raw_document_path: str) -> list[Opportunity]:

@@ -112,6 +112,7 @@ def main():
     print(f"  Total before prune: {merge_summary['total_before_prune']}")
     print(f"  Manual overrides applied: {merge_summary['overrides_applied']}")
     print(f"  Archived/expired (excluded from live output): {merge_summary['archived_or_expired']}")
+    print(f"  Stale, not re-confirmed within {file_store.STALE_AFTER_DAYS}d (excluded): {merge_summary['stale_not_reconfirmed']}")
     print(f"  Final opportunities.json count: {merge_summary['kept']}")
 
 
