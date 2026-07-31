@@ -145,7 +145,7 @@
   },
   {
     "externalKey": "sam_gov:dae2b3926cb34c37b70f7567043c68e3",
-    "rawDocumentPath": "data/raw/sam_gov/46a7857cd4320422.json",
+    "rawDocumentPath": "data/raw/sam_gov/1c7449f5d703a6f6.json",
     "source": "sam_gov",
     "name": "Precise Ensemble Network Communications Allowing PNT (Positioning, Navigation, and Timing)",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=dae2b3926cb34c37b70f7567043c68e3",
@@ -159,7 +159,7 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-07-24",
-    "lastSeen": "2026-07-30",
+    "lastSeen": "2026-07-31",
     "archived": false
   },
   {
@@ -218,7 +218,7 @@
   },
   {
     "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-    "rawDocumentPath": "data/raw/sam_gov/46a7857cd4320422.json",
+    "rawDocumentPath": "data/raw/sam_gov/1c7449f5d703a6f6.json",
     "source": "sam_gov",
     "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -232,7 +232,7 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-07-24",
-    "lastSeen": "2026-07-30",
+    "lastSeen": "2026-07-31",
     "archived": false
   },
   {
@@ -273,7 +273,7 @@
   },
   {
     "externalKey": "sam_gov:ecfbfeda4acb4d26a1a5653b2df43e5e",
-    "rawDocumentPath": "data/raw/sam_gov/46a7857cd4320422.json",
+    "rawDocumentPath": "data/raw/sam_gov/1c7449f5d703a6f6.json",
     "source": "sam_gov",
     "name": "Draft RFP - Mars Telecommunications Network (MTN)",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ecfbfeda4acb4d26a1a5653b2df43e5e",
@@ -287,12 +287,12 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-07-24",
-    "lastSeen": "2026-07-30",
+    "lastSeen": "2026-07-31",
     "archived": false
   },
   {
     "externalKey": "sam_gov:b7c3c7673d254cc3bdc4b3aff5436fd2",
-    "rawDocumentPath": "data/raw/sam_gov/f99fd1156ee1f38f.json",
+    "rawDocumentPath": "data/raw/sam_gov/3b5046847426fb28.json",
     "source": "sam_gov",
     "name": "Installation Fiber Optics Networking Support Services",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b7c3c7673d254cc3bdc4b3aff5436fd2",
@@ -306,7 +306,7 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-07-24",
-    "lastSeen": "2026-07-30",
+    "lastSeen": "2026-07-31",
     "archived": false
   },
   {
@@ -527,7 +527,7 @@
   },
   {
     "externalKey": "sam_gov:2f380d44e6b54c3d80d9ac9bf0d05fed",
-    "rawDocumentPath": "data/raw/sam_gov/46adbc664e723d34.json",
+    "rawDocumentPath": "data/raw/sam_gov/fd6ca81d84f875c0.json",
     "source": "sam_gov",
     "name": "MOUNT,RESILIENT,GEN",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2f380d44e6b54c3d80d9ac9bf0d05fed",
@@ -541,7 +541,7 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-07-24",
-    "lastSeen": "2026-07-30",
+    "lastSeen": "2026-07-31",
     "archived": false
   },
   {
@@ -600,7 +600,7 @@
   },
   {
     "externalKey": "sam_gov:4232971a8f3448f79d3691dd3a264adb",
-    "rawDocumentPath": "data/raw/sam_gov/99e52c8b78ec4738.json",
+    "rawDocumentPath": "data/raw/sam_gov/6e12cdd3710a1bff.json",
     "source": "sam_gov",
     "name": "Other Transaction Authority (OTA) Consortium Request for Proposals (RFP) Seabed-Subsea, Littoral, Asymmetric-Autonomous, Mining and Mine Hunting, Expeditionary, Robotic (SLAM2ER) Consortium",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4232971a8f3448f79d3691dd3a264adb",
@@ -616,7 +616,7 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-07-24",
-    "lastSeen": "2026-07-30",
+    "lastSeen": "2026-07-31",
     "archived": false
   },
   {
@@ -707,6 +707,25 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-07-24",
+    "archived": false
+  },
+  {
+    "externalKey": "sam_gov:54312c3052d444c8b3f9eb41c15fcc55",
+    "rawDocumentPath": "data/raw/sam_gov/1c7449f5d703a6f6.json",
+    "source": "sam_gov",
+    "name": "Foreign Military Sales (FMS) Requirement to Procure Ultra High Frequency Tactical Satellite (TACSAT) Radios for NATO Communications and Information Agency (NCIA)",
+    "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=54312c3052d444c8b3f9eb41c15fcc55",
+    "openDate": "2026-07-30",
+    "closeDate": "2026-08-21",
+    "cmmcRequirement": null,
+    "fundingAmount": null,
+    "applicationUrl": "https://sam.gov/workspace/contract/opp/54312c3052d444c8b3f9eb41c15fcc55/view",
+    "notes": "Picked up by keyword scan; not yet manually reviewed.",
+    "products": [],
+    "fitLevel": "Review",
+    "matchSource": "keyword",
+    "firstSeen": "2026-07-31",
+    "lastSeen": "2026-07-31",
     "archived": false
   }
 ]
