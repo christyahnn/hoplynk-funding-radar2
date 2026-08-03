@@ -1,9 +1,9 @@
 {
-  "lastScan": "2026-08-02T14:46:39.330425Z",
+  "lastScan": "2026-08-03T05:25:16.351851Z",
   "opportunities": [
     {
       "externalKey": "diu:autonomous-warfareground-based-affordable-mass-prize-challengeclosing-2026-08-05",
-      "rawDocumentPath": "data/raw/diu/d87622f3d5984f45.json",
+      "rawDocumentPath": "data/raw/diu/648676180448e895.json",
       "source": "diu",
       "name": "Autonomous WarfareGround-Based Affordable Mass Prize ChallengeClosing: 2026-08-05 23:59:59 US/Eastern Time\u219702",
       "objective": "Future conflicts will require the Joint Force to generate affordable long-range effects at a scale, cost, and pace that current inventories alone cannot support. Existing long-range precision fires remain critical for defeating hardened, defended, and strategically significant targets, but their cost and limited inventories make them difficult to employ at the volume required for sustained operations against a peer adversary. Complementing these capabilities with affordable, scalable long-range effects will enable commanders to service a broader target set, preserve exquisite munitions for their intended purpose, and sustain operational tempo throughout a prolonged conflict. Through Ground-Based Affordable Mass (G-BAM), the Department of War (DOW) is seeking mature, affordable, long-range precision strike systems that can be demonstrated within 60-90 days, certified, and scaled into production within 12-18 months. Aligned with the Direct Reporting Portfolio Manager for Unmanned Systems (DRPM-UxS) mandate to field low-cost autonomous capabilities at scale, the Government is particularly interested in mature, proven solutions that deliver favorable cost-per-effect at operationally relevant ranges while minimizing the logistical, training, and sustainment burden on employing units. This effort is intended to provide a common assessment and transition pathway for multiple DOW stakeholders. Successful solutions may be eligible for follow-on prototype agreements, production awards",
@@ -17,12 +17,12 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-08-02",
+      "lastSeen": "2026-08-03",
       "archived": false
     },
     {
       "externalKey": "diu:autonomous-warfaresuitable-warfighting-adaptive-payloads-swap-usv-closing-2026-0",
-      "rawDocumentPath": "data/raw/diu/c68ba096555f075f.json",
+      "rawDocumentPath": "data/raw/diu/40f892c2114f092f.json",
       "source": "diu",
       "name": "Autonomous WarfareSuitable Warfighting Adaptive Payloads (SWAP-USV)Closing: 2026-08-10 23:59:59 US/Eastern Time\u219701",
       "objective": "The cost-exchange ratio for detecting and neutralizing asymmetric maritime threats in contested environments is heavily skewed in favor of the adversary. Bad actors deploy low-cost, low-signature threats\u2014including explosive Unmanned Surface Vessels (USVs), Group 1\u20133 Unmanned Aircraft System (UASs), \"go-fast\" smuggling boats, and semi-submersibles. Currently, the Department of War (DoW) relies on exquisite, multi-million-dollar naval and aviation assets to intercept these inexpensive targets. The Government requires affordable, scalable, production-ready maritime systems capable of persistent search, tracking, and operational effects against asymmetric threats. The Government seeks innovation combinations of USVs and UASs that maximize operational effectiveness while improving the cost-exchange ratio across a range of mission profiles. The Government and the Department of War Innovation Unit (DIU) seek to partner with established maritime manufacturers, autonomy developers, sensor manufacturers, and UAS developers to execute a multi-phase Prize Challenge under 10 USC 4025 with up to $100M in available funding. The DoW is relying on industry to provide inexpensive and scalable solutions that combine proven USVs with mature drone capabilities to extend sensing, targeting, communications, and defeat of hostile threats through kinetic and non-kinetic effects at scale. This competition will be executed as a 12-Month Prize Challenge with rolling submission windows divided into three",
@@ -38,7 +38,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-29",
-      "lastSeen": "2026-08-02",
+      "lastSeen": "2026-08-03",
       "archived": false
     },
     {
@@ -204,7 +204,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/576054ad2085ffe7.json",
+      "rawDocumentPath": "data/raw/sam_gov/bafddcc54151cdd7.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -218,7 +218,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-08-02",
+      "lastSeen": "2026-08-03",
       "archived": false
     },
     {
@@ -295,7 +295,7 @@
     },
     {
       "externalKey": "sam_gov:2f380d44e6b54c3d80d9ac9bf0d05fed",
-      "rawDocumentPath": "data/raw/sam_gov/e2c77b18b94c0a32.json",
+      "rawDocumentPath": "data/raw/sam_gov/a75b3df0c22051f1.json",
       "source": "sam_gov",
       "name": "MOUNT,RESILIENT,GEN",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2f380d44e6b54c3d80d9ac9bf0d05fed",
@@ -309,7 +309,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-08-02",
+      "lastSeen": "2026-08-03",
       "archived": false
     },
     {
@@ -368,7 +368,7 @@
     },
     {
       "externalKey": "sam_gov:4232971a8f3448f79d3691dd3a264adb",
-      "rawDocumentPath": "data/raw/sam_gov/a5088cba7492a513.json",
+      "rawDocumentPath": "data/raw/sam_gov/d73ab2fd951ccd91.json",
       "source": "sam_gov",
       "name": "Other Transaction Authority (OTA) Consortium Request for Proposals (RFP) Seabed-Subsea, Littoral, Asymmetric-Autonomous, Mining and Mine Hunting, Expeditionary, Robotic (SLAM2ER) Consortium",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4232971a8f3448f79d3691dd3a264adb",
@@ -384,7 +384,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-08-02",
+      "lastSeen": "2026-08-03",
       "archived": false
     },
     {
@@ -408,7 +408,7 @@
     },
     {
       "externalKey": "sam_gov:f907e7940fae4460a15bec9613365446",
-      "rawDocumentPath": "data/raw/sam_gov/576054ad2085ffe7.json",
+      "rawDocumentPath": "data/raw/sam_gov/bafddcc54151cdd7.json",
       "source": "sam_gov",
       "name": "Foreign Military Sales (FMS) Requirement to Procure Ultra High Frequency Tactical Satellite (TACSAT) Radios for NATO Communications and Information Agency (NCIA)",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f907e7940fae4460a15bec9613365446",
@@ -422,7 +422,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-08-01",
-      "lastSeen": "2026-08-02",
+      "lastSeen": "2026-08-03",
       "archived": false
     },
     {
