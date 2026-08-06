@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-08-05T15:32:49.143971Z",
+  "lastScan": "2026-08-06T04:51:39.073403Z",
   "opportunities": [
     {
       "externalKey": "diu:autonomous-warfareground-based-affordable-mass-prize-challengeclosing-2026-08-05",
@@ -22,7 +22,7 @@
     },
     {
       "externalKey": "diu:autonomous-warfaresuitable-warfighting-adaptive-payloads-swap-usv-closing-2026-0",
-      "rawDocumentPath": "data/raw/diu/de4b3c99235d8463.json",
+      "rawDocumentPath": "data/raw/diu/d23576b3b43d356d.json",
       "source": "diu",
       "name": "Autonomous WarfareSuitable Warfighting Adaptive Payloads (SWAP-USV)Closing: 2026-08-10 23:59:59 US/Eastern Time\u219701",
       "objective": "The cost-exchange ratio for detecting and neutralizing asymmetric maritime threats in contested environments is heavily skewed in favor of the adversary. Bad actors deploy low-cost, low-signature threats\u2014including explosive Unmanned Surface Vessels (USVs), Group 1\u20133 Unmanned Aircraft System (UASs), \"go-fast\" smuggling boats, and semi-submersibles. Currently, the Department of War (DoW) relies on exquisite, multi-million-dollar naval and aviation assets to intercept these inexpensive targets. The Government requires affordable, scalable, production-ready maritime systems capable of persistent search, tracking, and operational effects against asymmetric threats. The Government seeks innovation combinations of USVs and UASs that maximize operational effectiveness while improving the cost-exchange ratio across a range of mission profiles. The Government and the Department of War Innovation Unit (DIU) seek to partner with established maritime manufacturers, autonomy developers, sensor manufacturers, and UAS developers to execute a multi-phase Prize Challenge under 10 USC 4025 with up to $100M in available funding. The DoW is relying on industry to provide inexpensive and scalable solutions that combine proven USVs with mature drone capabilities to extend sensing, targeting, communications, and defeat of hostile threats through kinetic and non-kinetic effects at scale. This competition will be executed as a 12-Month Prize Challenge with rolling submission windows divided into three",
@@ -38,7 +38,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-29",
-      "lastSeen": "2026-08-05",
+      "lastSeen": "2026-08-06",
       "archived": false
     },
     {
@@ -186,7 +186,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/ea51104f55bb9353.json",
+      "rawDocumentPath": "data/raw/sam_gov/0a810a2010012b09.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -200,25 +200,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-08-05",
-      "archived": false
-    },
-    {
-      "externalKey": "sam_gov:fba41c62efbc471b9250d623dc52e5f4",
-      "rawDocumentPath": "data/raw/sam_gov/1f33b50c483395f1.json",
-      "source": "sam_gov",
-      "name": "58--COMMUNICATIONS BAR, IN REPAIR/MODIFICATION OF",
-      "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fba41c62efbc471b9250d623dc52e5f4",
-      "openDate": "2026-07-21",
-      "closeDate": "2026-08-05",
-      "cmmcRequirement": null,
-      "fundingAmount": null,
-      "applicationUrl": "https://sam.gov/workspace/contract/opp/fba41c62efbc471b9250d623dc52e5f4/view",
-      "notes": "Picked up by keyword scan; not yet manually reviewed.",
-      "products": [],
-      "fitLevel": "Review",
-      "matchSource": "keyword",
-      "firstSeen": "2026-07-24",
+      "lastSeen": "2026-08-06",
       "archived": false
     },
     {
@@ -232,24 +214,6 @@
       "cmmcRequirement": null,
       "fundingAmount": null,
       "applicationUrl": "https://sam.gov/workspace/contract/opp/76dc62a4605848f4a9ef2696f50c61f8/view",
-      "notes": "Picked up by keyword scan; not yet manually reviewed.",
-      "products": [],
-      "fitLevel": "Review",
-      "matchSource": "keyword",
-      "firstSeen": "2026-07-24",
-      "archived": false
-    },
-    {
-      "externalKey": "sam_gov:80ef7745e5ae4c76a6583ebc4cc9f7bd",
-      "rawDocumentPath": "data/raw/sam_gov/1f33b50c483395f1.json",
-      "source": "sam_gov",
-      "name": "MCC Communications Firm for Nepal Compact",
-      "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=80ef7745e5ae4c76a6583ebc4cc9f7bd",
-      "openDate": "2026-07-06",
-      "closeDate": "2026-08-05",
-      "cmmcRequirement": null,
-      "fundingAmount": null,
-      "applicationUrl": "https://sam.gov/workspace/contract/opp/80ef7745e5ae4c76a6583ebc4cc9f7bd/view",
       "notes": "Picked up by keyword scan; not yet manually reviewed.",
       "products": [],
       "fitLevel": "Review",
@@ -277,7 +241,7 @@
     },
     {
       "externalKey": "sam_gov:2f380d44e6b54c3d80d9ac9bf0d05fed",
-      "rawDocumentPath": "data/raw/sam_gov/2bd1ca98c6f52cb7.json",
+      "rawDocumentPath": "data/raw/sam_gov/1f8aba2554e82300.json",
       "source": "sam_gov",
       "name": "MOUNT,RESILIENT,GEN",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2f380d44e6b54c3d80d9ac9bf0d05fed",
@@ -291,7 +255,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-08-05",
+      "lastSeen": "2026-08-06",
       "archived": false
     },
     {
@@ -350,7 +314,7 @@
     },
     {
       "externalKey": "sam_gov:f907e7940fae4460a15bec9613365446",
-      "rawDocumentPath": "data/raw/sam_gov/ea51104f55bb9353.json",
+      "rawDocumentPath": "data/raw/sam_gov/0a810a2010012b09.json",
       "source": "sam_gov",
       "name": "Foreign Military Sales (FMS) Requirement to Procure Ultra High Frequency Tactical Satellite (TACSAT) Radios for NATO Communications and Information Agency (NCIA)",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f907e7940fae4460a15bec9613365446",
@@ -364,7 +328,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-08-01",
-      "lastSeen": "2026-08-05",
+      "lastSeen": "2026-08-06",
       "archived": false
     },
     {
