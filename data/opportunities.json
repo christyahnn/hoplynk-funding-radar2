@@ -1,9 +1,9 @@
 {
-  "lastScan": "2026-08-09T03:23:51.345250Z",
+  "lastScan": "2026-08-09T14:03:16.345738Z",
   "opportunities": [
     {
       "externalKey": "diu:autonomous-warfaresuitable-warfighting-adaptive-payloads-swap-usv-closing-2026-0",
-      "rawDocumentPath": "data/raw/diu/21d53b2e99e8c414.json",
+      "rawDocumentPath": "data/raw/diu/dd6763daef198c91.json",
       "source": "diu",
       "name": "Autonomous WarfareSuitable Warfighting Adaptive Payloads (SWAP-USV)Closing: 2026-08-10 23:59:59 US/Eastern Time\u219701",
       "objective": "The cost-exchange ratio for detecting and neutralizing asymmetric maritime threats in contested environments is heavily skewed in favor of the adversary. Bad actors deploy low-cost, low-signature threats\u2014including explosive Unmanned Surface Vessels (USVs), Group 1\u20133 Unmanned Aircraft System (UASs), \"go-fast\" smuggling boats, and semi-submersibles. Currently, the Department of War (DoW) relies on exquisite, multi-million-dollar naval and aviation assets to intercept these inexpensive targets. The Government requires affordable, scalable, production-ready maritime systems capable of persistent search, tracking, and operational effects against asymmetric threats. The Government seeks innovation combinations of USVs and UASs that maximize operational effectiveness while improving the cost-exchange ratio across a range of mission profiles. The Government and the Department of War Innovation Unit (DIU) seek to partner with established maritime manufacturers, autonomy developers, sensor manufacturers, and UAS developers to execute a multi-phase Prize Challenge under 10 USC 4025 with up to $100M in available funding. The DoW is relying on industry to provide inexpensive and scalable solutions that combine proven USVs with mature drone capabilities to extend sensing, targeting, communications, and defeat of hostile threats through kinetic and non-kinetic effects at scale. This competition will be executed as a 12-Month Prize Challenge with rolling submission windows divided into three",
