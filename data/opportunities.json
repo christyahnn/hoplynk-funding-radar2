@@ -1,9 +1,9 @@
 {
-  "lastScan": "2026-08-09T14:03:16.345738Z",
+  "lastScan": "2026-08-10T03:33:04.911534Z",
   "opportunities": [
     {
       "externalKey": "diu:autonomous-warfaresuitable-warfighting-adaptive-payloads-swap-usv-closing-2026-0",
-      "rawDocumentPath": "data/raw/diu/dd6763daef198c91.json",
+      "rawDocumentPath": "data/raw/diu/b1067ab898007464.json",
       "source": "diu",
       "name": "Autonomous WarfareSuitable Warfighting Adaptive Payloads (SWAP-USV)Closing: 2026-08-10 23:59:59 US/Eastern Time\u219701",
       "objective": "The cost-exchange ratio for detecting and neutralizing asymmetric maritime threats in contested environments is heavily skewed in favor of the adversary. Bad actors deploy low-cost, low-signature threats\u2014including explosive Unmanned Surface Vessels (USVs), Group 1\u20133 Unmanned Aircraft System (UASs), \"go-fast\" smuggling boats, and semi-submersibles. Currently, the Department of War (DoW) relies on exquisite, multi-million-dollar naval and aviation assets to intercept these inexpensive targets. The Government requires affordable, scalable, production-ready maritime systems capable of persistent search, tracking, and operational effects against asymmetric threats. The Government seeks innovation combinations of USVs and UASs that maximize operational effectiveness while improving the cost-exchange ratio across a range of mission profiles. The Government and the Department of War Innovation Unit (DIU) seek to partner with established maritime manufacturers, autonomy developers, sensor manufacturers, and UAS developers to execute a multi-phase Prize Challenge under 10 USC 4025 with up to $100M in available funding. The DoW is relying on industry to provide inexpensive and scalable solutions that combine proven USVs with mature drone capabilities to extend sensing, targeting, communications, and defeat of hostile threats through kinetic and non-kinetic effects at scale. This competition will be executed as a 12-Month Prize Challenge with rolling submission windows divided into three",
@@ -19,7 +19,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-29",
-      "lastSeen": "2026-08-09",
+      "lastSeen": "2026-08-10",
       "archived": false
     },
     {
@@ -149,7 +149,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/d69d9cb3f8f891f4.json",
+      "rawDocumentPath": "data/raw/sam_gov/d8c6aab1cb224f32.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -163,7 +163,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-08-09",
+      "lastSeen": "2026-08-10",
       "archived": false
     },
     {
@@ -204,7 +204,7 @@
     },
     {
       "externalKey": "sam_gov:2f380d44e6b54c3d80d9ac9bf0d05fed",
-      "rawDocumentPath": "data/raw/sam_gov/8077b826f2e232f5.json",
+      "rawDocumentPath": "data/raw/sam_gov/48e32b4330f5711c.json",
       "source": "sam_gov",
       "name": "MOUNT,RESILIENT,GEN",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2f380d44e6b54c3d80d9ac9bf0d05fed",
@@ -218,7 +218,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-08-09",
+      "lastSeen": "2026-08-10",
       "archived": false
     },
     {
@@ -277,7 +277,7 @@
     },
     {
       "externalKey": "sam_gov:f907e7940fae4460a15bec9613365446",
-      "rawDocumentPath": "data/raw/sam_gov/d69d9cb3f8f891f4.json",
+      "rawDocumentPath": "data/raw/sam_gov/d8c6aab1cb224f32.json",
       "source": "sam_gov",
       "name": "Foreign Military Sales (FMS) Requirement to Procure Ultra High Frequency Tactical Satellite (TACSAT) Radios for NATO Communications and Information Agency (NCIA)",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f907e7940fae4460a15bec9613365446",
@@ -291,7 +291,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-08-01",
-      "lastSeen": "2026-08-09",
+      "lastSeen": "2026-08-10",
       "archived": false
     },
     {
