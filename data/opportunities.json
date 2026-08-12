@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-08-12T03:53:09.358076Z",
+  "lastScan": "2026-08-12T14:36:54.637056Z",
   "opportunities": [
     {
       "externalKey": "diu:autonomous-warfaresuitable-warfighting-adaptive-payloads-swap-usv-closing-2026-0",
@@ -273,6 +273,25 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-08-01",
+      "lastSeen": "2026-08-12",
+      "archived": false
+    },
+    {
+      "externalKey": "sam_gov:20e7f4dbdfad4e2fb976edd7859cfd8d",
+      "rawDocumentPath": "data/raw/sam_gov/89cde02a74d95867.json",
+      "source": "sam_gov",
+      "name": "Supply of CAT6 CABLE and networking suppl",
+      "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=20e7f4dbdfad4e2fb976edd7859cfd8d",
+      "openDate": "2026-08-12",
+      "closeDate": "2026-08-24",
+      "cmmcRequirement": null,
+      "fundingAmount": null,
+      "applicationUrl": "https://sam.gov/workspace/contract/opp/20e7f4dbdfad4e2fb976edd7859cfd8d/view",
+      "notes": "Picked up by keyword scan; not yet manually reviewed.",
+      "products": [],
+      "fitLevel": "Review",
+      "matchSource": "keyword",
+      "firstSeen": "2026-08-12",
       "lastSeen": "2026-08-12",
       "archived": false
     },
