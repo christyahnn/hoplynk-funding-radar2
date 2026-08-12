@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-08-11T14:35:44.212958Z",
+  "lastScan": "2026-08-12T03:53:09.358076Z",
   "opportunities": [
     {
       "externalKey": "diu:autonomous-warfaresuitable-warfighting-adaptive-payloads-swap-usv-closing-2026-0",
@@ -149,7 +149,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/cf43ce9568feb7a2.json",
+      "rawDocumentPath": "data/raw/sam_gov/84d229a2a758226d.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -163,7 +163,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-08-11",
+      "lastSeen": "2026-08-12",
       "archived": false
     },
     {
@@ -185,26 +185,8 @@
       "archived": false
     },
     {
-      "externalKey": "sam_gov:3de1f4c9a0854cd8a4ea4214219b859c",
-      "rawDocumentPath": "data/raw/sam_gov/4ab97ba4a7fc133a.json",
-      "source": "sam_gov",
-      "name": "MOUNT,RESILIENT,GEN",
-      "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=3de1f4c9a0854cd8a4ea4214219b859c",
-      "openDate": "2026-07-22",
-      "closeDate": "2026-08-11",
-      "cmmcRequirement": null,
-      "fundingAmount": null,
-      "applicationUrl": "https://sam.gov/workspace/contract/opp/3de1f4c9a0854cd8a4ea4214219b859c/view",
-      "notes": "Picked up by keyword scan; not yet manually reviewed.",
-      "products": [],
-      "fitLevel": "Review",
-      "matchSource": "keyword",
-      "firstSeen": "2026-07-24",
-      "archived": false
-    },
-    {
       "externalKey": "sam_gov:2f380d44e6b54c3d80d9ac9bf0d05fed",
-      "rawDocumentPath": "data/raw/sam_gov/bbc1d38596bb9c45.json",
+      "rawDocumentPath": "data/raw/sam_gov/6c1e350449f31bb5.json",
       "source": "sam_gov",
       "name": "MOUNT,RESILIENT,GEN",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2f380d44e6b54c3d80d9ac9bf0d05fed",
@@ -218,7 +200,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-08-11",
+      "lastSeen": "2026-08-12",
       "archived": false
     },
     {
@@ -277,7 +259,7 @@
     },
     {
       "externalKey": "sam_gov:f907e7940fae4460a15bec9613365446",
-      "rawDocumentPath": "data/raw/sam_gov/cf43ce9568feb7a2.json",
+      "rawDocumentPath": "data/raw/sam_gov/84d229a2a758226d.json",
       "source": "sam_gov",
       "name": "Foreign Military Sales (FMS) Requirement to Procure Ultra High Frequency Tactical Satellite (TACSAT) Radios for NATO Communications and Information Agency (NCIA)",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f907e7940fae4460a15bec9613365446",
@@ -291,7 +273,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-08-01",
-      "lastSeen": "2026-08-11",
+      "lastSeen": "2026-08-12",
       "archived": false
     },
     {
