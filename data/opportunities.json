@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-08-12T14:36:54.637056Z",
+  "lastScan": "2026-08-13T03:57:24.030578Z",
   "opportunities": [
     {
       "externalKey": "diu:autonomous-warfaresuitable-warfighting-adaptive-payloads-swap-usv-closing-2026-0",
@@ -149,7 +149,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/84d229a2a758226d.json",
+      "rawDocumentPath": "data/raw/sam_gov/6764d7e10d962fdd.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -163,7 +163,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-08-12",
+      "lastSeen": "2026-08-13",
       "archived": false
     },
     {
@@ -186,7 +186,7 @@
     },
     {
       "externalKey": "sam_gov:2f380d44e6b54c3d80d9ac9bf0d05fed",
-      "rawDocumentPath": "data/raw/sam_gov/6c1e350449f31bb5.json",
+      "rawDocumentPath": "data/raw/sam_gov/d789a9783d0d3bd8.json",
       "source": "sam_gov",
       "name": "MOUNT,RESILIENT,GEN",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2f380d44e6b54c3d80d9ac9bf0d05fed",
@@ -200,7 +200,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-08-12",
+      "lastSeen": "2026-08-13",
       "archived": false
     },
     {
@@ -259,7 +259,7 @@
     },
     {
       "externalKey": "sam_gov:f907e7940fae4460a15bec9613365446",
-      "rawDocumentPath": "data/raw/sam_gov/84d229a2a758226d.json",
+      "rawDocumentPath": "data/raw/sam_gov/6764d7e10d962fdd.json",
       "source": "sam_gov",
       "name": "Foreign Military Sales (FMS) Requirement to Procure Ultra High Frequency Tactical Satellite (TACSAT) Radios for NATO Communications and Information Agency (NCIA)",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f907e7940fae4460a15bec9613365446",
@@ -273,12 +273,12 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-08-01",
-      "lastSeen": "2026-08-12",
+      "lastSeen": "2026-08-13",
       "archived": false
     },
     {
       "externalKey": "sam_gov:20e7f4dbdfad4e2fb976edd7859cfd8d",
-      "rawDocumentPath": "data/raw/sam_gov/89cde02a74d95867.json",
+      "rawDocumentPath": "data/raw/sam_gov/cb7d43f5cffd8d87.json",
       "source": "sam_gov",
       "name": "Supply of CAT6 CABLE and networking suppl",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=20e7f4dbdfad4e2fb976edd7859cfd8d",
@@ -292,7 +292,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-08-12",
-      "lastSeen": "2026-08-12",
+      "lastSeen": "2026-08-13",
       "archived": false
     },
     {
