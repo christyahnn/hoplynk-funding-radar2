@@ -1,0 +1,9 @@
+{
+  "source": "sam_gov",
+  "fetch_method": "api",
+  "source_url": "https://api.sam.gov/opportunities/v2/search?api_key=SAM-26ef29c2-4c19-467c-8464-1b05dcab2cd7&postedFrom=01%2F01%2F2026&postedTo=08%2F14%2F2026&ptype=o&limit=100&title=zero+trust",
+  "external_id": "zero trust",
+  "content_type": "json",
+  "raw_content": "{\"totalRecords\":0,\"limit\":100,\"offset\":0,\"opportunitiesData\":[],\"links\":[{\"rel\":\"self\",\"href\":\"https://api.sam.gov/prod/opportunities/v2/search?postedFrom=01%2F01%2F2026&postedTo=08%2F14%2F2026&ptype=o&limit=100&title=zero+trust\"}]}",
+  "fetched_at": "2026-08-14T03:53:50.035218Z"
+}

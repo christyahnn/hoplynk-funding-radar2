@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-08-13T03:57:24.030578Z",
+  "lastScan": "2026-08-14T03:54:32.721231Z",
   "opportunities": [
     {
       "externalKey": "diu:autonomous-warfaresuitable-warfighting-adaptive-payloads-swap-usv-closing-2026-0",
@@ -149,7 +149,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/6764d7e10d962fdd.json",
+      "rawDocumentPath": "data/raw/sam_gov/799e2d19f4546b35.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -163,7 +163,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "archived": false
     },
     {
@@ -186,7 +186,7 @@
     },
     {
       "externalKey": "sam_gov:2f380d44e6b54c3d80d9ac9bf0d05fed",
-      "rawDocumentPath": "data/raw/sam_gov/d789a9783d0d3bd8.json",
+      "rawDocumentPath": "data/raw/sam_gov/c6af4a46ae08ee82.json",
       "source": "sam_gov",
       "name": "MOUNT,RESILIENT,GEN",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2f380d44e6b54c3d80d9ac9bf0d05fed",
@@ -200,7 +200,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "archived": false
     },
     {
@@ -259,7 +259,7 @@
     },
     {
       "externalKey": "sam_gov:f907e7940fae4460a15bec9613365446",
-      "rawDocumentPath": "data/raw/sam_gov/6764d7e10d962fdd.json",
+      "rawDocumentPath": "data/raw/sam_gov/799e2d19f4546b35.json",
       "source": "sam_gov",
       "name": "Foreign Military Sales (FMS) Requirement to Procure Ultra High Frequency Tactical Satellite (TACSAT) Radios for NATO Communications and Information Agency (NCIA)",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f907e7940fae4460a15bec9613365446",
@@ -273,12 +273,12 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-08-01",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "archived": false
     },
     {
       "externalKey": "sam_gov:20e7f4dbdfad4e2fb976edd7859cfd8d",
-      "rawDocumentPath": "data/raw/sam_gov/cb7d43f5cffd8d87.json",
+      "rawDocumentPath": "data/raw/sam_gov/d79e7d89cd58e414.json",
       "source": "sam_gov",
       "name": "Supply of CAT6 CABLE and networking suppl",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=20e7f4dbdfad4e2fb976edd7859cfd8d",
@@ -292,7 +292,26 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-08-12",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
+      "archived": false
+    },
+    {
+      "externalKey": "sam_gov:a9df7e011cd7459980794cae7e49ff11",
+      "rawDocumentPath": "data/raw/sam_gov/45275ed22e0513ff.json",
+      "source": "sam_gov",
+      "name": "Call for Solutions for  Participation in Command and Control (C2) Software Development Kit (SDK) Integration Event for Controllers/ Human Machine Interfaces (HMI) of Robotic and Autonomous Systems",
+      "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a9df7e011cd7459980794cae7e49ff11",
+      "openDate": "2026-08-13",
+      "closeDate": "2031-08-12",
+      "cmmcRequirement": null,
+      "fundingAmount": null,
+      "applicationUrl": "https://sam.gov/workspace/contract/opp/a9df7e011cd7459980794cae7e49ff11/view",
+      "notes": "Picked up by keyword scan; not yet manually reviewed.",
+      "products": [],
+      "fitLevel": "Review",
+      "matchSource": "keyword",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14",
       "archived": false
     },
     {
