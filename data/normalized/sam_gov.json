@@ -218,7 +218,7 @@
   },
   {
     "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-    "rawDocumentPath": "data/raw/sam_gov/6fdb5c5471d59500.json",
+    "rawDocumentPath": "data/raw/sam_gov/0594f89b8eb09191.json",
     "source": "sam_gov",
     "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -232,7 +232,7 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-07-24",
-    "lastSeen": "2026-08-15",
+    "lastSeen": "2026-08-16",
     "archived": false
   },
   {
@@ -273,7 +273,7 @@
   },
   {
     "externalKey": "sam_gov:ecfbfeda4acb4d26a1a5653b2df43e5e",
-    "rawDocumentPath": "data/raw/sam_gov/6fdb5c5471d59500.json",
+    "rawDocumentPath": "data/raw/sam_gov/0594f89b8eb09191.json",
     "source": "sam_gov",
     "name": "Draft RFP - Mars Telecommunications Network (MTN)",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ecfbfeda4acb4d26a1a5653b2df43e5e",
@@ -287,12 +287,12 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-07-24",
-    "lastSeen": "2026-08-15",
+    "lastSeen": "2026-08-16",
     "archived": false
   },
   {
     "externalKey": "sam_gov:b7c3c7673d254cc3bdc4b3aff5436fd2",
-    "rawDocumentPath": "data/raw/sam_gov/1fc49b3d074afb44.json",
+    "rawDocumentPath": "data/raw/sam_gov/83e437aa07802e6f.json",
     "source": "sam_gov",
     "name": "Installation Fiber Optics Networking Support Services",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b7c3c7673d254cc3bdc4b3aff5436fd2",
@@ -306,7 +306,7 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-07-24",
-    "lastSeen": "2026-08-15",
+    "lastSeen": "2026-08-16",
     "archived": false
   },
   {
@@ -527,7 +527,7 @@
   },
   {
     "externalKey": "sam_gov:2f380d44e6b54c3d80d9ac9bf0d05fed",
-    "rawDocumentPath": "data/raw/sam_gov/106cb153a4f74d46.json",
+    "rawDocumentPath": "data/raw/sam_gov/bc9569da5c3668b3.json",
     "source": "sam_gov",
     "name": "MOUNT,RESILIENT,GEN",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2f380d44e6b54c3d80d9ac9bf0d05fed",
@@ -541,7 +541,7 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-07-24",
-    "lastSeen": "2026-08-15",
+    "lastSeen": "2026-08-16",
     "archived": false
   },
   {
@@ -600,7 +600,7 @@
   },
   {
     "externalKey": "sam_gov:4232971a8f3448f79d3691dd3a264adb",
-    "rawDocumentPath": "data/raw/sam_gov/b3e5767b018ad65b.json",
+    "rawDocumentPath": "data/raw/sam_gov/4f76078b22b8b6b3.json",
     "source": "sam_gov",
     "name": "Other Transaction Authority (OTA) Consortium Request for Proposals (RFP) Seabed-Subsea, Littoral, Asymmetric-Autonomous, Mining and Mine Hunting, Expeditionary, Robotic (SLAM2ER) Consortium",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4232971a8f3448f79d3691dd3a264adb",
@@ -616,7 +616,7 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-07-24",
-    "lastSeen": "2026-08-15",
+    "lastSeen": "2026-08-16",
     "archived": false
   },
   {
@@ -730,7 +730,7 @@
   },
   {
     "externalKey": "sam_gov:f907e7940fae4460a15bec9613365446",
-    "rawDocumentPath": "data/raw/sam_gov/6fdb5c5471d59500.json",
+    "rawDocumentPath": "data/raw/sam_gov/0594f89b8eb09191.json",
     "source": "sam_gov",
     "name": "Foreign Military Sales (FMS) Requirement to Procure Ultra High Frequency Tactical Satellite (TACSAT) Radios for NATO Communications and Information Agency (NCIA)",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f907e7940fae4460a15bec9613365446",
@@ -744,12 +744,12 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-08-01",
-    "lastSeen": "2026-08-15",
+    "lastSeen": "2026-08-16",
     "archived": false
   },
   {
     "externalKey": "sam_gov:20e7f4dbdfad4e2fb976edd7859cfd8d",
-    "rawDocumentPath": "data/raw/sam_gov/1fc49b3d074afb44.json",
+    "rawDocumentPath": "data/raw/sam_gov/83e437aa07802e6f.json",
     "source": "sam_gov",
     "name": "Supply of CAT6 CABLE and networking suppl",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=20e7f4dbdfad4e2fb976edd7859cfd8d",
@@ -763,12 +763,12 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-08-12",
-    "lastSeen": "2026-08-15",
+    "lastSeen": "2026-08-16",
     "archived": false
   },
   {
     "externalKey": "sam_gov:a9df7e011cd7459980794cae7e49ff11",
-    "rawDocumentPath": "data/raw/sam_gov/b3e5767b018ad65b.json",
+    "rawDocumentPath": "data/raw/sam_gov/4f76078b22b8b6b3.json",
     "source": "sam_gov",
     "name": "Call for Solutions for  Participation in Command and Control (C2) Software Development Kit (SDK) Integration Event for Controllers/ Human Machine Interfaces (HMI) of Robotic and Autonomous Systems",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a9df7e011cd7459980794cae7e49ff11",
@@ -782,7 +782,7 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-08-14",
-    "lastSeen": "2026-08-15",
+    "lastSeen": "2026-08-16",
     "archived": false
   }
 ]
