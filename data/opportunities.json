@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-08-17T02:49:00.504572Z",
+  "lastScan": "2026-08-17T13:57:30.408217Z",
   "opportunities": [
     {
       "externalKey": "dod-sbir-universal-control-assessment",
@@ -239,7 +239,7 @@
     },
     {
       "externalKey": "sam_gov:20e7f4dbdfad4e2fb976edd7859cfd8d",
-      "rawDocumentPath": "data/raw/sam_gov/c6ee439a039f7fad.json",
+      "rawDocumentPath": "data/raw/sam_gov/b50e012b27453d36.json",
       "source": "sam_gov",
       "name": "Supply of CAT6 CABLE and networking suppl",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=20e7f4dbdfad4e2fb976edd7859cfd8d",
