@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-08-18T02:44:41.514642Z",
+  "lastScan": "2026-08-18T14:02:12.125537Z",
   "opportunities": [
     {
       "externalKey": "dod-sbir-universal-control-assessment",
@@ -128,7 +128,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/3426dd63dcadaa11.json",
+      "rawDocumentPath": "data/raw/sam_gov/6915931905bc26c4.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -201,7 +201,7 @@
     },
     {
       "externalKey": "sam_gov:f907e7940fae4460a15bec9613365446",
-      "rawDocumentPath": "data/raw/sam_gov/3426dd63dcadaa11.json",
+      "rawDocumentPath": "data/raw/sam_gov/6915931905bc26c4.json",
       "source": "sam_gov",
       "name": "Foreign Military Sales (FMS) Requirement to Procure Ultra High Frequency Tactical Satellite (TACSAT) Radios for NATO Communications and Information Agency (NCIA)",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f907e7940fae4460a15bec9613365446",
@@ -220,7 +220,7 @@
     },
     {
       "externalKey": "sam_gov:20e7f4dbdfad4e2fb976edd7859cfd8d",
-      "rawDocumentPath": "data/raw/sam_gov/80e9e149134e6e7b.json",
+      "rawDocumentPath": "data/raw/sam_gov/c032996ab9193990.json",
       "source": "sam_gov",
       "name": "Supply of CAT6 CABLE and networking suppl",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=20e7f4dbdfad4e2fb976edd7859cfd8d",
