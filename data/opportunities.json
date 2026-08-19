@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-08-18T14:02:12.125537Z",
+  "lastScan": "2026-08-19T02:47:04.971303Z",
   "opportunities": [
     {
       "externalKey": "dod-sbir-universal-control-assessment",
@@ -128,7 +128,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/6915931905bc26c4.json",
+      "rawDocumentPath": "data/raw/sam_gov/f6c3dc849107dad0.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -142,7 +142,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-08-18",
+      "lastSeen": "2026-08-19",
       "archived": false
     },
     {
@@ -220,7 +220,7 @@
     },
     {
       "externalKey": "sam_gov:20e7f4dbdfad4e2fb976edd7859cfd8d",
-      "rawDocumentPath": "data/raw/sam_gov/c032996ab9193990.json",
+      "rawDocumentPath": "data/raw/sam_gov/c36334952a177991.json",
       "source": "sam_gov",
       "name": "Supply of CAT6 CABLE and networking suppl",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=20e7f4dbdfad4e2fb976edd7859cfd8d",
@@ -234,7 +234,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-08-12",
-      "lastSeen": "2026-08-18",
+      "lastSeen": "2026-08-19",
       "archived": false
     },
     {
@@ -254,6 +254,25 @@
       "matchSource": "keyword",
       "firstSeen": "2026-08-14",
       "lastSeen": "2026-08-17",
+      "archived": false
+    },
+    {
+      "externalKey": "sam_gov:893420094b2047338897e040427ad4f6",
+      "rawDocumentPath": "data/raw/sam_gov/f6c3dc849107dad0.json",
+      "source": "sam_gov",
+      "name": "Foreign Military Sales (FMS) Requirement to Procure Ultra High Frequency Tactical Satellite (TACSAT) Radios for NATO Communications and Information Agency (NCIA)",
+      "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=893420094b2047338897e040427ad4f6",
+      "openDate": "2026-08-18",
+      "closeDate": "2026-08-28",
+      "cmmcRequirement": null,
+      "fundingAmount": null,
+      "applicationUrl": "https://sam.gov/workspace/contract/opp/893420094b2047338897e040427ad4f6/view",
+      "notes": "Picked up by keyword scan; not yet manually reviewed.",
+      "products": [],
+      "fitLevel": "Review",
+      "matchSource": "keyword",
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-08-19",
       "archived": false
     },
     {
