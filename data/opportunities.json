@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-08-20T02:45:14.774800Z",
+  "lastScan": "2026-08-20T14:05:02.022689Z",
   "opportunities": [
     {
       "externalKey": "samgov-exvlf-transmitter",
@@ -155,7 +155,7 @@
     },
     {
       "externalKey": "sam_gov:20e7f4dbdfad4e2fb976edd7859cfd8d",
-      "rawDocumentPath": "data/raw/sam_gov/f5a4f4b5b407edb2.json",
+      "rawDocumentPath": "data/raw/sam_gov/7e87dbbdf1b95288.json",
       "source": "sam_gov",
       "name": "Supply of CAT6 CABLE and networking suppl",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=20e7f4dbdfad4e2fb976edd7859cfd8d",
@@ -212,7 +212,7 @@
     },
     {
       "externalKey": "sam_gov:df581b2886d04725a9a883306b87995b",
-      "rawDocumentPath": "data/raw/sam_gov/f5a4f4b5b407edb2.json",
+      "rawDocumentPath": "data/raw/sam_gov/7e87dbbdf1b95288.json",
       "source": "sam_gov",
       "name": "Tactical Networks Software Defined Networking (SDN) Transport Solution- AOI 26-A010 under RCC CSO N6523626S0001",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=df581b2886d04725a9a883306b87995b",
