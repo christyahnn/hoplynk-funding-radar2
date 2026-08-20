@@ -1,71 +1,6 @@
 {
-  "lastScan": "2026-08-19T14:02:23.685692Z",
+  "lastScan": "2026-08-20T02:45:14.774800Z",
   "opportunities": [
-    {
-      "externalKey": "dod-sbir-universal-control-assessment",
-      "rawDocumentPath": null,
-      "source": "manual",
-      "name": "Universal Automated Control Assessment, Validation & Risk Correlation Platform for Hybrid DoW Environments",
-      "objective": "Develop a universal assessment framework that automates Control Validation Tests (CVT) across Cloud, On-Premise, and Air-Gapped/Tactical environments, ingesting vulnerability scanner data and correlating findings to NIST SP 800-53 controls.",
-      "openDate": "2026-06-22",
-      "closeDate": "2026-08-19",
-      "cmmcRequirement": "Level 1",
-      "fundingAmount": null,
-      "applicationUrl": "https://www.dodsbirsttr.mil/topics-app/",
-      "notes": "High alignment.",
-      "products": [
-        "Argus",
-        "Hydra"
-      ],
-      "fitLevel": "High",
-      "matchSource": "manual",
-      "firstSeen": "2026-07-20",
-      "archived": false
-    },
-    {
-      "externalKey": "dod-sbir-asymmetric-counter-swarm",
-      "rawDocumentPath": null,
-      "source": "manual",
-      "name": "Asymmetric Collaborative Counter Swarm",
-      "objective": "Develop and integrate distributed AI that collaboratively commands a multi-agent Group 1/2 UAS swarm to defend against a numerically superior enemy swarm, interfacing with existing platform autonomy/perception and without relying on a centralized control node.",
-      "openDate": "2026-07-22",
-      "closeDate": "2026-08-19",
-      "cmmcRequirement": "Level 1",
-      "fundingAmount": null,
-      "applicationUrl": "https://www.dodsbirsttr.mil/topics-app/",
-      "notes": "Good fit as a teaming partner/subcontractor -- Hoplynk provides the connective/decentralized networking layer while a partner takes the swarm-autonomy tech.",
-      "products": [
-        "Argus",
-        "Hydra"
-      ],
-      "fitLevel": "High (teaming)",
-      "matchSource": "manual",
-      "firstSeen": "2026-07-20",
-      "archived": false
-    },
-    {
-      "externalKey": "dod-sbir-t3cp-patent-holiday",
-      "rawDocumentPath": null,
-      "source": "manual",
-      "name": "T3CP Patent Holiday SBIR Open Topic Call",
-      "objective": "Open-topic SBIR call under the Patent Holiday program (no fixed technical topic).",
-      "openDate": "2026-07-22",
-      "closeDate": "2026-08-19",
-      "cmmcRequirement": "Level 1",
-      "fundingAmount": null,
-      "applicationUrl": "https://www.dodsbirsttr.mil/topics-app/",
-      "notes": "Relevant -- open topic, worth reviewing against whichever Hoplynk product has the strongest narrative that cycle.",
-      "products": [
-        "HAVEN",
-        "Argus",
-        "Hydra",
-        "GoLynk"
-      ],
-      "fitLevel": "Review",
-      "matchSource": "manual",
-      "firstSeen": "2026-07-20",
-      "archived": false
-    },
     {
       "externalKey": "samgov-exvlf-transmitter",
       "rawDocumentPath": null,
@@ -128,7 +63,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/f6c3dc849107dad0.json",
+      "rawDocumentPath": "data/raw/sam_gov/d274b664bf57f8ea.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -142,7 +77,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-08-19",
+      "lastSeen": "2026-08-20",
       "archived": false
     },
     {
@@ -220,7 +155,7 @@
     },
     {
       "externalKey": "sam_gov:20e7f4dbdfad4e2fb976edd7859cfd8d",
-      "rawDocumentPath": "data/raw/sam_gov/5bef64b117574b53.json",
+      "rawDocumentPath": "data/raw/sam_gov/f5a4f4b5b407edb2.json",
       "source": "sam_gov",
       "name": "Supply of CAT6 CABLE and networking suppl",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=20e7f4dbdfad4e2fb976edd7859cfd8d",
@@ -234,7 +169,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-08-12",
-      "lastSeen": "2026-08-19",
+      "lastSeen": "2026-08-20",
       "archived": false
     },
     {
@@ -258,7 +193,7 @@
     },
     {
       "externalKey": "sam_gov:893420094b2047338897e040427ad4f6",
-      "rawDocumentPath": "data/raw/sam_gov/f6c3dc849107dad0.json",
+      "rawDocumentPath": "data/raw/sam_gov/d274b664bf57f8ea.json",
       "source": "sam_gov",
       "name": "Foreign Military Sales (FMS) Requirement to Procure Ultra High Frequency Tactical Satellite (TACSAT) Radios for NATO Communications and Information Agency (NCIA)",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=893420094b2047338897e040427ad4f6",
@@ -272,7 +207,28 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-08-19",
-      "lastSeen": "2026-08-19",
+      "lastSeen": "2026-08-20",
+      "archived": false
+    },
+    {
+      "externalKey": "sam_gov:df581b2886d04725a9a883306b87995b",
+      "rawDocumentPath": "data/raw/sam_gov/f5a4f4b5b407edb2.json",
+      "source": "sam_gov",
+      "name": "Tactical Networks Software Defined Networking (SDN) Transport Solution- AOI 26-A010 under RCC CSO N6523626S0001",
+      "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=df581b2886d04725a9a883306b87995b",
+      "openDate": "2026-08-19",
+      "closeDate": "2026-08-26",
+      "cmmcRequirement": null,
+      "fundingAmount": null,
+      "applicationUrl": "https://sam.gov/workspace/contract/opp/df581b2886d04725a9a883306b87995b/view",
+      "notes": "Picked up by keyword scan; not yet manually reviewed.",
+      "products": [
+        "Hydra"
+      ],
+      "fitLevel": "Review",
+      "matchSource": "keyword",
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-20",
       "archived": false
     },
     {
