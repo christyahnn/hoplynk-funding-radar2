@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-08-21T14:02:48.738563Z",
+  "lastScan": "2026-08-22T02:42:55.483930Z",
   "opportunities": [
     {
       "externalKey": "samgov-exvlf-transmitter",
@@ -63,7 +63,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/88ba88412a3a7709.json",
+      "rawDocumentPath": "data/raw/sam_gov/2ed0ffe2bebb8999.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -77,25 +77,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-08-21",
-      "archived": false
-    },
-    {
-      "externalKey": "sam_gov:76dc62a4605848f4a9ef2696f50c61f8",
-      "rawDocumentPath": "data/raw/sam_gov/1f33b50c483395f1.json",
-      "source": "sam_gov",
-      "name": "Elden Mountain Communications Site Renovation",
-      "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=76dc62a4605848f4a9ef2696f50c61f8",
-      "openDate": "2026-07-13",
-      "closeDate": "2026-08-21",
-      "cmmcRequirement": null,
-      "fundingAmount": null,
-      "applicationUrl": "https://sam.gov/workspace/contract/opp/76dc62a4605848f4a9ef2696f50c61f8/view",
-      "notes": "Picked up by keyword scan; not yet manually reviewed.",
-      "products": [],
-      "fitLevel": "Review",
-      "matchSource": "keyword",
-      "firstSeen": "2026-07-24",
+      "lastSeen": "2026-08-22",
       "archived": false
     },
     {
@@ -135,27 +117,8 @@
       "archived": false
     },
     {
-      "externalKey": "sam_gov:f907e7940fae4460a15bec9613365446",
-      "rawDocumentPath": "data/raw/sam_gov/6915931905bc26c4.json",
-      "source": "sam_gov",
-      "name": "Foreign Military Sales (FMS) Requirement to Procure Ultra High Frequency Tactical Satellite (TACSAT) Radios for NATO Communications and Information Agency (NCIA)",
-      "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f907e7940fae4460a15bec9613365446",
-      "openDate": "2026-07-31",
-      "closeDate": "2026-08-21",
-      "cmmcRequirement": null,
-      "fundingAmount": null,
-      "applicationUrl": "https://sam.gov/workspace/contract/opp/f907e7940fae4460a15bec9613365446/view",
-      "notes": "Picked up by keyword scan; not yet manually reviewed.",
-      "products": [],
-      "fitLevel": "Review",
-      "matchSource": "keyword",
-      "firstSeen": "2026-08-01",
-      "lastSeen": "2026-08-18",
-      "archived": false
-    },
-    {
       "externalKey": "sam_gov:20e7f4dbdfad4e2fb976edd7859cfd8d",
-      "rawDocumentPath": "data/raw/sam_gov/d94664ac0862a3e0.json",
+      "rawDocumentPath": "data/raw/sam_gov/857b697c989ef824.json",
       "source": "sam_gov",
       "name": "Supply of CAT6 CABLE and networking suppl",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=20e7f4dbdfad4e2fb976edd7859cfd8d",
@@ -169,12 +132,12 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-08-12",
-      "lastSeen": "2026-08-21",
+      "lastSeen": "2026-08-22",
       "archived": false
     },
     {
       "externalKey": "sam_gov:893420094b2047338897e040427ad4f6",
-      "rawDocumentPath": "data/raw/sam_gov/88ba88412a3a7709.json",
+      "rawDocumentPath": "data/raw/sam_gov/2ed0ffe2bebb8999.json",
       "source": "sam_gov",
       "name": "Foreign Military Sales (FMS) Requirement to Procure Ultra High Frequency Tactical Satellite (TACSAT) Radios for NATO Communications and Information Agency (NCIA)",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=893420094b2047338897e040427ad4f6",
@@ -188,12 +151,12 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-08-19",
-      "lastSeen": "2026-08-21",
+      "lastSeen": "2026-08-22",
       "archived": false
     },
     {
       "externalKey": "sam_gov:df581b2886d04725a9a883306b87995b",
-      "rawDocumentPath": "data/raw/sam_gov/d94664ac0862a3e0.json",
+      "rawDocumentPath": "data/raw/sam_gov/857b697c989ef824.json",
       "source": "sam_gov",
       "name": "Tactical Networks Software Defined Networking (SDN) Transport Solution- AOI 26-A010 under RCC CSO N6523626S0001",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=df581b2886d04725a9a883306b87995b",
@@ -209,7 +172,26 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-08-20",
-      "lastSeen": "2026-08-21",
+      "lastSeen": "2026-08-22",
+      "archived": false
+    },
+    {
+      "externalKey": "sam_gov:f513757622cb4850956502804482285a",
+      "rawDocumentPath": "data/raw/sam_gov/2ed0ffe2bebb8999.json",
+      "source": "sam_gov",
+      "name": "Telecommunications support services",
+      "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f513757622cb4850956502804482285a",
+      "openDate": "2026-08-21",
+      "closeDate": "2026-08-31",
+      "cmmcRequirement": null,
+      "fundingAmount": null,
+      "applicationUrl": "https://sam.gov/workspace/contract/opp/f513757622cb4850956502804482285a/view",
+      "notes": "Picked up by keyword scan; not yet manually reviewed.",
+      "products": [],
+      "fitLevel": "Review",
+      "matchSource": "keyword",
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-08-22",
       "archived": false
     },
     {
