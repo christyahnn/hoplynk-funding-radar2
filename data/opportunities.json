@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-08-22T02:42:55.483930Z",
+  "lastScan": "2026-08-22T13:48:54.599208Z",
   "opportunities": [
     {
       "externalKey": "samgov-exvlf-transmitter",
@@ -186,6 +186,25 @@
       "cmmcRequirement": null,
       "fundingAmount": null,
       "applicationUrl": "https://sam.gov/workspace/contract/opp/f513757622cb4850956502804482285a/view",
+      "notes": "Picked up by keyword scan; not yet manually reviewed.",
+      "products": [],
+      "fitLevel": "Review",
+      "matchSource": "keyword",
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-08-22",
+      "archived": false
+    },
+    {
+      "externalKey": "sam_gov:2a8d13181052413a8d82a7bd82714f79",
+      "rawDocumentPath": "data/raw/sam_gov/42fa7d0d0074a518.json",
+      "source": "sam_gov",
+      "name": "KIRA B100 Autonomous Floor Scrubbers Or Equal",
+      "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2a8d13181052413a8d82a7bd82714f79",
+      "openDate": "2026-08-22",
+      "closeDate": "2026-08-27",
+      "cmmcRequirement": null,
+      "fundingAmount": null,
+      "applicationUrl": "https://sam.gov/workspace/contract/opp/2a8d13181052413a8d82a7bd82714f79/view",
       "notes": "Picked up by keyword scan; not yet manually reviewed.",
       "products": [],
       "fitLevel": "Review",
