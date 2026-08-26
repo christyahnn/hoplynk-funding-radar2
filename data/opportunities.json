@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-08-26T02:54:53.354803Z",
+  "lastScan": "2026-08-26T14:08:14.068672Z",
   "opportunities": [
     {
       "externalKey": "samgov-exvlf-transmitter",
@@ -45,7 +45,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/c69a9f832fd7d464.json",
+      "rawDocumentPath": "data/raw/sam_gov/b13505fdc851ab80.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -140,7 +140,7 @@
     },
     {
       "externalKey": "sam_gov:f513757622cb4850956502804482285a",
-      "rawDocumentPath": "data/raw/sam_gov/c69a9f832fd7d464.json",
+      "rawDocumentPath": "data/raw/sam_gov/b13505fdc851ab80.json",
       "source": "sam_gov",
       "name": "Telecommunications support services",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f513757622cb4850956502804482285a",
@@ -173,6 +173,25 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-08-22",
+      "lastSeen": "2026-08-26",
+      "archived": false
+    },
+    {
+      "externalKey": "sam_gov:27f3e29d176847c88de3e7dd53d81acf",
+      "rawDocumentPath": "data/raw/sam_gov/b13505fdc851ab80.json",
+      "source": "sam_gov",
+      "name": "Foreign Military Sales (FMS) Requirement to Procure Ultra High Frequency Tactical Satellite (TACSAT) Radios for NATO Communications and Information Agency (NCIA)",
+      "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=27f3e29d176847c88de3e7dd53d81acf",
+      "openDate": "2026-08-26",
+      "closeDate": "2026-09-04",
+      "cmmcRequirement": null,
+      "fundingAmount": null,
+      "applicationUrl": "https://sam.gov/workspace/contract/opp/27f3e29d176847c88de3e7dd53d81acf/view",
+      "notes": "Picked up by keyword scan; not yet manually reviewed.",
+      "products": [],
+      "fitLevel": "Review",
+      "matchSource": "keyword",
+      "firstSeen": "2026-08-26",
       "lastSeen": "2026-08-26",
       "archived": false
     },
