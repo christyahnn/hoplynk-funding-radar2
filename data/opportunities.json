@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-08-27T12:04:26.295424Z",
+  "lastScan": "2026-08-27T23:02:11.305284Z",
   "opportunities": [
     {
       "externalKey": "samgov-exvlf-transmitter",
@@ -45,7 +45,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/69357dcb380dc771.json",
+      "rawDocumentPath": "data/raw/sam_gov/4a56a4311a86c077.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -119,7 +119,7 @@
     },
     {
       "externalKey": "sam_gov:f513757622cb4850956502804482285a",
-      "rawDocumentPath": "data/raw/sam_gov/69357dcb380dc771.json",
+      "rawDocumentPath": "data/raw/sam_gov/4a56a4311a86c077.json",
       "source": "sam_gov",
       "name": "Telecommunications support services",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f513757622cb4850956502804482285a",
@@ -157,7 +157,7 @@
     },
     {
       "externalKey": "sam_gov:27f3e29d176847c88de3e7dd53d81acf",
-      "rawDocumentPath": "data/raw/sam_gov/69357dcb380dc771.json",
+      "rawDocumentPath": "data/raw/sam_gov/4a56a4311a86c077.json",
       "source": "sam_gov",
       "name": "Foreign Military Sales (FMS) Requirement to Procure Ultra High Frequency Tactical Satellite (TACSAT) Radios for NATO Communications and Information Agency (NCIA)",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=27f3e29d176847c88de3e7dd53d81acf",
@@ -176,7 +176,7 @@
     },
     {
       "externalKey": "sam_gov:4659e90f9a344b45a9aa470d95c24a77",
-      "rawDocumentPath": "data/raw/sam_gov/69357dcb380dc771.json",
+      "rawDocumentPath": "data/raw/sam_gov/4a56a4311a86c077.json",
       "source": "sam_gov",
       "name": "Hose-McCann Communications Co, Inc. Communication System Repair and Modernization for US Valiant-Class Harbor Tugs",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4659e90f9a344b45a9aa470d95c24a77",
@@ -195,7 +195,7 @@
     },
     {
       "externalKey": "sam_gov:ba71c61e755e4b4caff3a8efb978cbf4",
-      "rawDocumentPath": "data/raw/sam_gov/1ec5ed4f46018769.json",
+      "rawDocumentPath": "data/raw/sam_gov/314d6855967aafc5.json",
       "source": "sam_gov",
       "name": "KIRA B100 Autonomous Floor Scrubbers Or Equal",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ba71c61e755e4b4caff3a8efb978cbf4",
