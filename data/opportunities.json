@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-08-27T23:02:11.305284Z",
+  "lastScan": "2026-08-28T13:24:20.097538Z",
   "opportunities": [
     {
       "externalKey": "samgov-exvlf-transmitter",
@@ -45,7 +45,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/4a56a4311a86c077.json",
+      "rawDocumentPath": "data/raw/sam_gov/14b65fab31a79432.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -59,7 +59,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-08-27",
+      "lastSeen": "2026-08-28",
       "archived": false
     },
     {
@@ -119,7 +119,7 @@
     },
     {
       "externalKey": "sam_gov:f513757622cb4850956502804482285a",
-      "rawDocumentPath": "data/raw/sam_gov/4a56a4311a86c077.json",
+      "rawDocumentPath": "data/raw/sam_gov/14b65fab31a79432.json",
       "source": "sam_gov",
       "name": "Telecommunications support services",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f513757622cb4850956502804482285a",
@@ -133,31 +133,12 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-08-22",
-      "lastSeen": "2026-08-27",
-      "archived": false
-    },
-    {
-      "externalKey": "sam_gov:2a8d13181052413a8d82a7bd82714f79",
-      "rawDocumentPath": "data/raw/sam_gov/6feeeb9d701e1d1c.json",
-      "source": "sam_gov",
-      "name": "KIRA B100 Autonomous Floor Scrubbers Or Equal",
-      "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2a8d13181052413a8d82a7bd82714f79",
-      "openDate": "2026-08-22",
-      "closeDate": "2026-08-27",
-      "cmmcRequirement": null,
-      "fundingAmount": null,
-      "applicationUrl": "https://sam.gov/workspace/contract/opp/2a8d13181052413a8d82a7bd82714f79/view",
-      "notes": "Picked up by keyword scan; not yet manually reviewed.",
-      "products": [],
-      "fitLevel": "Review",
-      "matchSource": "keyword",
-      "firstSeen": "2026-08-22",
-      "lastSeen": "2026-08-26",
+      "lastSeen": "2026-08-28",
       "archived": false
     },
     {
       "externalKey": "sam_gov:27f3e29d176847c88de3e7dd53d81acf",
-      "rawDocumentPath": "data/raw/sam_gov/4a56a4311a86c077.json",
+      "rawDocumentPath": "data/raw/sam_gov/14b65fab31a79432.json",
       "source": "sam_gov",
       "name": "Foreign Military Sales (FMS) Requirement to Procure Ultra High Frequency Tactical Satellite (TACSAT) Radios for NATO Communications and Information Agency (NCIA)",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=27f3e29d176847c88de3e7dd53d81acf",
@@ -171,45 +152,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-08-26",
-      "lastSeen": "2026-08-27",
-      "archived": false
-    },
-    {
-      "externalKey": "sam_gov:4659e90f9a344b45a9aa470d95c24a77",
-      "rawDocumentPath": "data/raw/sam_gov/4a56a4311a86c077.json",
-      "source": "sam_gov",
-      "name": "Hose-McCann Communications Co, Inc. Communication System Repair and Modernization for US Valiant-Class Harbor Tugs",
-      "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4659e90f9a344b45a9aa470d95c24a77",
-      "openDate": "2026-08-26",
-      "closeDate": "2026-08-27",
-      "cmmcRequirement": null,
-      "fundingAmount": null,
-      "applicationUrl": "https://sam.gov/workspace/contract/opp/4659e90f9a344b45a9aa470d95c24a77/view",
-      "notes": "Picked up by keyword scan; not yet manually reviewed.",
-      "products": [],
-      "fitLevel": "Review",
-      "matchSource": "keyword",
-      "firstSeen": "2026-08-27",
-      "lastSeen": "2026-08-27",
-      "archived": false
-    },
-    {
-      "externalKey": "sam_gov:ba71c61e755e4b4caff3a8efb978cbf4",
-      "rawDocumentPath": "data/raw/sam_gov/314d6855967aafc5.json",
-      "source": "sam_gov",
-      "name": "KIRA B100 Autonomous Floor Scrubbers Or Equal",
-      "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ba71c61e755e4b4caff3a8efb978cbf4",
-      "openDate": "2026-08-26",
-      "closeDate": "2026-08-27",
-      "cmmcRequirement": null,
-      "fundingAmount": null,
-      "applicationUrl": "https://sam.gov/workspace/contract/opp/ba71c61e755e4b4caff3a8efb978cbf4/view",
-      "notes": "Picked up by keyword scan; not yet manually reviewed.",
-      "products": [],
-      "fitLevel": "Review",
-      "matchSource": "keyword",
-      "firstSeen": "2026-08-27",
-      "lastSeen": "2026-08-27",
+      "lastSeen": "2026-08-28",
       "archived": false
     },
     {
