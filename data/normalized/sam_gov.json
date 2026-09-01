@@ -292,7 +292,7 @@
   },
   {
     "externalKey": "sam_gov:b7c3c7673d254cc3bdc4b3aff5436fd2",
-    "rawDocumentPath": "data/raw/sam_gov/d23a5f4a8f692964.json",
+    "rawDocumentPath": "data/raw/sam_gov/9fb3fcbc4a388df5.json",
     "source": "sam_gov",
     "name": "Installation Fiber Optics Networking Support Services",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b7c3c7673d254cc3bdc4b3aff5436fd2",
@@ -917,6 +917,25 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-08-27",
+    "lastSeen": "2026-09-01",
+    "archived": false
+  },
+  {
+    "externalKey": "sam_gov:06847eb1d6f145989513ffff6b1b5e31",
+    "rawDocumentPath": "data/raw/sam_gov/8df98cbc3ce14763.json",
+    "source": "sam_gov",
+    "name": "KIRA B100 Autonomous Floor Scrubbers Or Equal",
+    "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=06847eb1d6f145989513ffff6b1b5e31",
+    "openDate": "2026-09-01",
+    "closeDate": "2026-09-04",
+    "cmmcRequirement": null,
+    "fundingAmount": null,
+    "applicationUrl": "https://sam.gov/workspace/contract/opp/06847eb1d6f145989513ffff6b1b5e31/view",
+    "notes": "Picked up by keyword scan; not yet manually reviewed.",
+    "products": [],
+    "fitLevel": "Review",
+    "matchSource": "keyword",
+    "firstSeen": "2026-09-01",
     "lastSeen": "2026-09-01",
     "archived": false
   }
