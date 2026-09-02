@@ -218,7 +218,7 @@
   },
   {
     "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-    "rawDocumentPath": "data/raw/sam_gov/d7a67c1d235890cf.json",
+    "rawDocumentPath": "data/raw/sam_gov/2b2d28b5f29faf9b.json",
     "source": "sam_gov",
     "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -232,7 +232,7 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-07-24",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09-02",
     "archived": false
   },
   {
@@ -273,7 +273,7 @@
   },
   {
     "externalKey": "sam_gov:ecfbfeda4acb4d26a1a5653b2df43e5e",
-    "rawDocumentPath": "data/raw/sam_gov/d7a67c1d235890cf.json",
+    "rawDocumentPath": "data/raw/sam_gov/2b2d28b5f29faf9b.json",
     "source": "sam_gov",
     "name": "Draft RFP - Mars Telecommunications Network (MTN)",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ecfbfeda4acb4d26a1a5653b2df43e5e",
@@ -287,12 +287,12 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-07-24",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09-02",
     "archived": false
   },
   {
     "externalKey": "sam_gov:b7c3c7673d254cc3bdc4b3aff5436fd2",
-    "rawDocumentPath": "data/raw/sam_gov/9fb3fcbc4a388df5.json",
+    "rawDocumentPath": "data/raw/sam_gov/278188f606651ff3.json",
     "source": "sam_gov",
     "name": "Installation Fiber Optics Networking Support Services",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b7c3c7673d254cc3bdc4b3aff5436fd2",
@@ -306,7 +306,7 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-07-24",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09-02",
     "archived": false
   },
   {
@@ -865,7 +865,7 @@
   },
   {
     "externalKey": "sam_gov:27f3e29d176847c88de3e7dd53d81acf",
-    "rawDocumentPath": "data/raw/sam_gov/d7a67c1d235890cf.json",
+    "rawDocumentPath": "data/raw/sam_gov/2b2d28b5f29faf9b.json",
     "source": "sam_gov",
     "name": "Foreign Military Sales (FMS) Requirement to Procure Ultra High Frequency Tactical Satellite (TACSAT) Radios for NATO Communications and Information Agency (NCIA)",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=27f3e29d176847c88de3e7dd53d81acf",
@@ -879,12 +879,12 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-08-26",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09-02",
     "archived": false
   },
   {
     "externalKey": "sam_gov:4659e90f9a344b45a9aa470d95c24a77",
-    "rawDocumentPath": "data/raw/sam_gov/d7a67c1d235890cf.json",
+    "rawDocumentPath": "data/raw/sam_gov/2b2d28b5f29faf9b.json",
     "source": "sam_gov",
     "name": "Hose-McCann Communications Co, Inc. Communication System Repair and Modernization for US Valiant-Class Harbor Tugs",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4659e90f9a344b45a9aa470d95c24a77",
@@ -898,7 +898,7 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-08-27",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09-02",
     "archived": false
   },
   {
@@ -922,7 +922,7 @@
   },
   {
     "externalKey": "sam_gov:06847eb1d6f145989513ffff6b1b5e31",
-    "rawDocumentPath": "data/raw/sam_gov/8df98cbc3ce14763.json",
+    "rawDocumentPath": "data/raw/sam_gov/46d23741eb105f12.json",
     "source": "sam_gov",
     "name": "KIRA B100 Autonomous Floor Scrubbers Or Equal",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=06847eb1d6f145989513ffff6b1b5e31",
@@ -936,7 +936,7 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-09-01",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09-02",
     "archived": false
   }
 ]
