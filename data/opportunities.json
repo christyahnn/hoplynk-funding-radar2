@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-09-03T17:06:38.154382Z",
+  "lastScan": "2026-09-04T06:35:15.546660Z",
   "opportunities": [
     {
       "externalKey": "samgov-exvlf-transmitter",
@@ -45,7 +45,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/72b2c145c4b6e5ce.json",
+      "rawDocumentPath": "data/raw/sam_gov/8df8b795f1809926.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -59,7 +59,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-09-03",
+      "lastSeen": "2026-09-04",
       "archived": false
     },
     {
@@ -119,7 +119,7 @@
     },
     {
       "externalKey": "sam_gov:06847eb1d6f145989513ffff6b1b5e31",
-      "rawDocumentPath": "data/raw/sam_gov/812dd97ced1960a7.json",
+      "rawDocumentPath": "data/raw/sam_gov/9160a1ad4192f6bc.json",
       "source": "sam_gov",
       "name": "KIRA B100 Autonomous Floor Scrubbers Or Equal",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=06847eb1d6f145989513ffff6b1b5e31",
@@ -133,12 +133,12 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-09-01",
-      "lastSeen": "2026-09-03",
+      "lastSeen": "2026-09-04",
       "archived": false
     },
     {
       "externalKey": "sam_gov:a241fe9526ad43ce9db4848accb51903",
-      "rawDocumentPath": "data/raw/sam_gov/72b2c145c4b6e5ce.json",
+      "rawDocumentPath": "data/raw/sam_gov/8df8b795f1809926.json",
       "source": "sam_gov",
       "name": "Foreign Military Sales (FMS) Requirement to Procure Ultra High Frequency Tactical Satellite (TACSAT) Radios for NATO Communications and Information Agency (NCIA)",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a241fe9526ad43ce9db4848accb51903",
@@ -152,7 +152,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-09-03",
-      "lastSeen": "2026-09-03",
+      "lastSeen": "2026-09-04",
       "archived": false
     },
     {
