@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-09-08T06:35:12.727853Z",
+  "lastScan": "2026-09-08T17:19:48.288204Z",
   "opportunities": [
     {
       "externalKey": "samgov-exvlf-transmitter",
@@ -259,6 +259,25 @@
       "fitLevel": "Review (broad match)",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
+      "archived": false
+    },
+    {
+      "externalKey": "spacewerx:spacewerx-hosts-the-defense-curious-forum",
+      "rawDocumentPath": "data/raw/spacewerx/c7c8d11f3785a878.json",
+      "source": "spacewerx",
+      "name": "SpaceWERX hosts the Defense Curious Forum",
+      "objective": "Join SpaceWERX at The BR-DGE for the Defense Curious Forum on Sept. 29 for an afternoon of candid conversations, practical insights and high-value networking focused on helping commercial innovators navigate the defense ecosystem and turn dual-use technology into mission-critical capability. Connect with decision-makers, explore acquisition and investment pathways, and discover how your innovation can help address critical space capability gaps.",
+      "openDate": null,
+      "closeDate": null,
+      "cmmcRequirement": null,
+      "fundingAmount": null,
+      "applicationUrl": "https://spacewerx.us/events-calendar/defense-curious-forum/",
+      "notes": "Picked up by keyword scan; not yet manually reviewed.",
+      "products": [],
+      "fitLevel": "Review",
+      "matchSource": "keyword",
+      "firstSeen": "2026-09-08",
+      "lastSeen": "2026-09-08",
       "archived": false
     }
   ]
