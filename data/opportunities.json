@@ -1,9 +1,9 @@
 {
-  "lastScan": "2026-09-14T07:08:23.769017Z",
+  "lastScan": "2026-09-14T18:42:31.311897Z",
   "opportunities": [
     {
       "externalKey": "diu:commercial-solutions-openings-cso-space-threat-intelligence-synthesis-engineclos",
-      "rawDocumentPath": "data/raw/diu/f97bc089f0130b06.json",
+      "rawDocumentPath": "data/raw/diu/29426789ec0ff7b4.json",
       "source": "diu",
       "name": "Commercial Solutions Openings (CSO)Space Threat Intelligence Synthesis EngineClosing: 2026-09-24 23:59:59 US/Eastern Time\u219701",
       "objective": "Today\u2019s space and missile threat information is spread across a variety of sources. Existing tools struggle to distinguish closely spaced objects, track emerging threats, and keep threat models current. A more effective approach is needed to give operators and automated systems a clear picture. The resulting insights must be available quickly enough to inform time-sensitive operational decisions. The Department of War is looking for AI-based software tools to turn fragmented sensor data into a continuously updated understanding of space and missile threats fast enough to drive operational decisions. The desired solution will ingest and fuse massive streams of multi-source data, including live video, satellite imagery, radar and sensor feeds, geospatial data, and classified intelligence reports. By automating advanced cross-data correlation, the architecture aims to uncover hidden patterns, complex operational relationships, and predictive threat behaviors far beyond the capabilities of human analysis alone. Designed around open standards, the solution will continuously update weapons-system performance models in real time. It will deliver dual outputs: intuitive, human-readable visualizations for frontline operators and low-latency, machine-to-machine APIs to drive automated command-and-control (C2) workflows. Security, Infrastructure & Enterprise Interoperability Security, Infrastructure & Enterprise Interoperability Vendors are welcome to apply individually or in partnershi",
@@ -263,7 +263,7 @@
     },
     {
       "externalKey": "spacewerx:spacewerx-hosts-the-defense-curious-forum",
-      "rawDocumentPath": "data/raw/spacewerx/3cfb2c426c1e90ed.json",
+      "rawDocumentPath": "data/raw/spacewerx/86a7b785b7c707bf.json",
       "source": "spacewerx",
       "name": "SpaceWERX hosts the Defense Curious Forum",
       "objective": "Join SpaceWERX at The BR-DGE for the Defense Curious Forum on Sept. 29 for an afternoon of candid conversations, practical insights and high-value networking focused on helping commercial innovators navigate the defense ecosystem and turn dual-use technology into mission-critical capability. Connect with decision-makers, explore acquisition and investment pathways, and discover how your innovation can help address critical space capability gaps.",
