@@ -1,9 +1,9 @@
 {
-  "lastScan": "2026-09-20T07:03:07.655249Z",
+  "lastScan": "2026-09-20T16:52:23.925771Z",
   "opportunities": [
     {
       "externalKey": "diu:commercial-solutions-openings-cso-space-threat-intelligence-synthesis-engineclos",
-      "rawDocumentPath": "data/raw/diu/b60bfe312a29c546.json",
+      "rawDocumentPath": "data/raw/diu/1869c9de3014cbc2.json",
       "source": "diu",
       "name": "Commercial Solutions Openings (CSO)Space Threat Intelligence Synthesis EngineClosing: 2026-09-24 23:59:59 US/Eastern Time\u219701",
       "objective": "Today\u2019s space and missile threat information is spread across a variety of sources. Existing tools struggle to distinguish closely spaced objects, track emerging threats, and keep threat models current. A more effective approach is needed to give operators and automated systems a clear picture. The resulting insights must be available quickly enough to inform time-sensitive operational decisions. The Department of War is looking for AI-based software tools to turn fragmented sensor data into a continuously updated understanding of space and missile threats fast enough to drive operational decisions. The desired solution will ingest and fuse massive streams of multi-source data, including live video, satellite imagery, radar and sensor feeds, geospatial data, and classified intelligence reports. By automating advanced cross-data correlation, the architecture aims to uncover hidden patterns, complex operational relationships, and predictive threat behaviors far beyond the capabilities of human analysis alone. Designed around open standards, the solution will continuously update weapons-system performance models in real time. It will deliver dual outputs: intuitive, human-readable visualizations for frontline operators and low-latency, machine-to-machine APIs to drive automated command-and-control (C2) workflows. Security, Infrastructure & Enterprise Interoperability Security, Infrastructure & Enterprise Interoperability Vendors are welcome to apply individually or in partnershi",
@@ -64,7 +64,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/abcaf4f30d16c8af.json",
+      "rawDocumentPath": "data/raw/sam_gov/0b94282607aedf96.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -119,11 +119,11 @@
     },
     {
       "externalKey": "sam_gov:f343689fec264a0392afe80d38cd4a6b",
-      "rawDocumentPath": "data/raw/sam_gov/5c8ce15bde3b89a3.json",
+      "rawDocumentPath": "data/raw/sam_gov/fddc21354df91a78.json",
       "source": "sam_gov",
       "name": "NETWORK,TACTICAL SW",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f343689fec264a0392afe80d38cd4a6b",
-      "openDate": "2026-09-16",
+      "openDate": "2026-09-17",
       "closeDate": "2026-09-28",
       "cmmcRequirement": null,
       "fundingAmount": null,
