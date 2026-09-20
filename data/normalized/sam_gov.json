@@ -218,7 +218,7 @@
   },
   {
     "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-    "rawDocumentPath": "data/raw/sam_gov/e043fe94ce42d540.json",
+    "rawDocumentPath": "data/raw/sam_gov/abcaf4f30d16c8af.json",
     "source": "sam_gov",
     "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -232,7 +232,7 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-07-24",
-    "lastSeen": "2026-09-19",
+    "lastSeen": "2026-09-20",
     "archived": false
   },
   {
@@ -273,7 +273,7 @@
   },
   {
     "externalKey": "sam_gov:ecfbfeda4acb4d26a1a5653b2df43e5e",
-    "rawDocumentPath": "data/raw/sam_gov/e043fe94ce42d540.json",
+    "rawDocumentPath": "data/raw/sam_gov/abcaf4f30d16c8af.json",
     "source": "sam_gov",
     "name": "Draft RFP - Mars Telecommunications Network (MTN)",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ecfbfeda4acb4d26a1a5653b2df43e5e",
@@ -287,12 +287,12 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-07-24",
-    "lastSeen": "2026-09-19",
+    "lastSeen": "2026-09-20",
     "archived": false
   },
   {
     "externalKey": "sam_gov:b7c3c7673d254cc3bdc4b3aff5436fd2",
-    "rawDocumentPath": "data/raw/sam_gov/bbbc256fcd0a0aeb.json",
+    "rawDocumentPath": "data/raw/sam_gov/5c8ce15bde3b89a3.json",
     "source": "sam_gov",
     "name": "Installation Fiber Optics Networking Support Services",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b7c3c7673d254cc3bdc4b3aff5436fd2",
@@ -306,7 +306,7 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-07-24",
-    "lastSeen": "2026-09-19",
+    "lastSeen": "2026-09-20",
     "archived": false
   },
   {
@@ -941,7 +941,7 @@
   },
   {
     "externalKey": "sam_gov:a241fe9526ad43ce9db4848accb51903",
-    "rawDocumentPath": "data/raw/sam_gov/e043fe94ce42d540.json",
+    "rawDocumentPath": "data/raw/sam_gov/abcaf4f30d16c8af.json",
     "source": "sam_gov",
     "name": "Foreign Military Sales (FMS) Requirement to Procure Ultra High Frequency Tactical Satellite (TACSAT) Radios for NATO Communications and Information Agency (NCIA)",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a241fe9526ad43ce9db4848accb51903",
@@ -955,12 +955,12 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-09-03",
-    "lastSeen": "2026-09-19",
+    "lastSeen": "2026-09-20",
     "archived": false
   },
   {
     "externalKey": "sam_gov:c410925f38264bcd851d51aba51d7307",
-    "rawDocumentPath": "data/raw/sam_gov/e043fe94ce42d540.json",
+    "rawDocumentPath": "data/raw/sam_gov/abcaf4f30d16c8af.json",
     "source": "sam_gov",
     "name": "Commercial and Military Satellite Communications Operations Support (COSMOS)",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=c410925f38264bcd851d51aba51d7307",
@@ -976,12 +976,12 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-09-11",
-    "lastSeen": "2026-09-19",
+    "lastSeen": "2026-09-20",
     "archived": false
   },
   {
     "externalKey": "sam_gov:f343689fec264a0392afe80d38cd4a6b",
-    "rawDocumentPath": "data/raw/sam_gov/bbbc256fcd0a0aeb.json",
+    "rawDocumentPath": "data/raw/sam_gov/5c8ce15bde3b89a3.json",
     "source": "sam_gov",
     "name": "NETWORK,TACTICAL SW",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f343689fec264a0392afe80d38cd4a6b",
@@ -995,7 +995,7 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-09-17",
-    "lastSeen": "2026-09-19",
+    "lastSeen": "2026-09-20",
     "archived": false
   },
   {
@@ -1015,6 +1015,25 @@
     "matchSource": "keyword",
     "firstSeen": "2026-09-18",
     "lastSeen": "2026-09-19",
+    "archived": false
+  },
+  {
+    "externalKey": "sam_gov:22352c5f4252452794bfc8d35064c43a",
+    "rawDocumentPath": "data/raw/sam_gov/81c0f5b40be100c6.json",
+    "source": "sam_gov",
+    "name": "UNMANNED AIRCRAFT SYSTEMS (UAS) FOR USACE",
+    "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=22352c5f4252452794bfc8d35064c43a",
+    "openDate": "2026-09-19",
+    "closeDate": "2026-09-22",
+    "cmmcRequirement": null,
+    "fundingAmount": null,
+    "applicationUrl": "https://sam.gov/workspace/contract/opp/22352c5f4252452794bfc8d35064c43a/view",
+    "notes": "Picked up by keyword scan; not yet manually reviewed.",
+    "products": [],
+    "fitLevel": "Review",
+    "matchSource": "keyword",
+    "firstSeen": "2026-09-20",
+    "lastSeen": "2026-09-20",
     "archived": false
   }
 ]
