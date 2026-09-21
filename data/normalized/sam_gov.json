@@ -292,7 +292,7 @@
   },
   {
     "externalKey": "sam_gov:b7c3c7673d254cc3bdc4b3aff5436fd2",
-    "rawDocumentPath": "data/raw/sam_gov/29cd3f202a478e2b.json",
+    "rawDocumentPath": "data/raw/sam_gov/0c124935303d9a8a.json",
     "source": "sam_gov",
     "name": "Installation Fiber Optics Networking Support Services",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b7c3c7673d254cc3bdc4b3aff5436fd2",
@@ -981,7 +981,7 @@
   },
   {
     "externalKey": "sam_gov:f343689fec264a0392afe80d38cd4a6b",
-    "rawDocumentPath": "data/raw/sam_gov/29cd3f202a478e2b.json",
+    "rawDocumentPath": "data/raw/sam_gov/0c124935303d9a8a.json",
     "source": "sam_gov",
     "name": "NETWORK,TACTICAL SW",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f343689fec264a0392afe80d38cd4a6b",
@@ -1033,6 +1033,25 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-09-20",
+    "lastSeen": "2026-09-21",
+    "archived": false
+  },
+  {
+    "externalKey": "sam_gov:73897764ecd248e6b633e53a669ccb3d",
+    "rawDocumentPath": "data/raw/sam_gov/d548e7b12f81609d.json",
+    "source": "sam_gov",
+    "name": "UNMANNED AIRCRAFT SYSTEMS (UAS) FOR USACE",
+    "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=73897764ecd248e6b633e53a669ccb3d",
+    "openDate": "2026-09-21",
+    "closeDate": "2026-09-23",
+    "cmmcRequirement": null,
+    "fundingAmount": null,
+    "applicationUrl": "https://sam.gov/workspace/contract/opp/73897764ecd248e6b633e53a669ccb3d/view",
+    "notes": "Picked up by keyword scan; not yet manually reviewed.",
+    "products": [],
+    "fitLevel": "Review",
+    "matchSource": "keyword",
+    "firstSeen": "2026-09-21",
     "lastSeen": "2026-09-21",
     "archived": false
   }
