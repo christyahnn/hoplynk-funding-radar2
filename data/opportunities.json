@@ -1,9 +1,9 @@
 {
-  "lastScan": "2026-09-20T16:52:23.925771Z",
+  "lastScan": "2026-09-21T07:13:02.248278Z",
   "opportunities": [
     {
       "externalKey": "diu:commercial-solutions-openings-cso-space-threat-intelligence-synthesis-engineclos",
-      "rawDocumentPath": "data/raw/diu/1869c9de3014cbc2.json",
+      "rawDocumentPath": "data/raw/diu/855fd9020d8c6dbd.json",
       "source": "diu",
       "name": "Commercial Solutions Openings (CSO)Space Threat Intelligence Synthesis EngineClosing: 2026-09-24 23:59:59 US/Eastern Time\u219701",
       "objective": "Today\u2019s space and missile threat information is spread across a variety of sources. Existing tools struggle to distinguish closely spaced objects, track emerging threats, and keep threat models current. A more effective approach is needed to give operators and automated systems a clear picture. The resulting insights must be available quickly enough to inform time-sensitive operational decisions. The Department of War is looking for AI-based software tools to turn fragmented sensor data into a continuously updated understanding of space and missile threats fast enough to drive operational decisions. The desired solution will ingest and fuse massive streams of multi-source data, including live video, satellite imagery, radar and sensor feeds, geospatial data, and classified intelligence reports. By automating advanced cross-data correlation, the architecture aims to uncover hidden patterns, complex operational relationships, and predictive threat behaviors far beyond the capabilities of human analysis alone. Designed around open standards, the solution will continuously update weapons-system performance models in real time. It will deliver dual outputs: intuitive, human-readable visualizations for frontline operators and low-latency, machine-to-machine APIs to drive automated command-and-control (C2) workflows. Security, Infrastructure & Enterprise Interoperability Security, Infrastructure & Enterprise Interoperability Vendors are welcome to apply individually or in partnershi",
@@ -17,7 +17,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-09-11",
-      "lastSeen": "2026-09-20",
+      "lastSeen": "2026-09-21",
       "archived": false
     },
     {
@@ -64,7 +64,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/0b94282607aedf96.json",
+      "rawDocumentPath": "data/raw/sam_gov/ce14f11d4d2a6cf4.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -78,7 +78,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-09-20",
+      "lastSeen": "2026-09-21",
       "archived": false
     },
     {
@@ -119,11 +119,11 @@
     },
     {
       "externalKey": "sam_gov:f343689fec264a0392afe80d38cd4a6b",
-      "rawDocumentPath": "data/raw/sam_gov/fddc21354df91a78.json",
+      "rawDocumentPath": "data/raw/sam_gov/29cd3f202a478e2b.json",
       "source": "sam_gov",
       "name": "NETWORK,TACTICAL SW",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f343689fec264a0392afe80d38cd4a6b",
-      "openDate": "2026-09-17",
+      "openDate": "2026-09-16",
       "closeDate": "2026-09-28",
       "cmmcRequirement": null,
       "fundingAmount": null,
@@ -133,7 +133,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-09-17",
-      "lastSeen": "2026-09-20",
+      "lastSeen": "2026-09-21",
       "archived": false
     },
     {
@@ -157,7 +157,7 @@
     },
     {
       "externalKey": "sam_gov:22352c5f4252452794bfc8d35064c43a",
-      "rawDocumentPath": "data/raw/sam_gov/81c0f5b40be100c6.json",
+      "rawDocumentPath": "data/raw/sam_gov/592091c34223c8b1.json",
       "source": "sam_gov",
       "name": "UNMANNED AIRCRAFT SYSTEMS (UAS) FOR USACE",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=22352c5f4252452794bfc8d35064c43a",
@@ -171,7 +171,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-09-20",
-      "lastSeen": "2026-09-20",
+      "lastSeen": "2026-09-21",
       "archived": false
     },
     {
@@ -320,7 +320,7 @@
     },
     {
       "externalKey": "spacewerx:spacewerx-hosts-the-defense-curious-forum",
-      "rawDocumentPath": "data/raw/spacewerx/429d8d548b31b937.json",
+      "rawDocumentPath": "data/raw/spacewerx/3f9778e92ae92ca4.json",
       "source": "spacewerx",
       "name": "SpaceWERX hosts the Defense Curious Forum",
       "objective": "Join SpaceWERX at The BR-DGE for the Defense Curious Forum on Sept. 29 for an afternoon of candid conversations, practical insights and high-value networking focused on helping commercial innovators navigate the defense ecosystem and turn dual-use technology into mission-critical capability. Connect with decision-makers, explore acquisition and investment pathways, and discover how your innovation can help address critical space capability gaps.",
@@ -334,7 +334,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-20",
+      "lastSeen": "2026-09-21",
       "archived": false
     }
   ]
