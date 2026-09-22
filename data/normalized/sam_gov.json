@@ -218,7 +218,7 @@
   },
   {
     "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-    "rawDocumentPath": "data/raw/sam_gov/2d3b758600be6702.json",
+    "rawDocumentPath": "data/raw/sam_gov/4d491203db813d55.json",
     "source": "sam_gov",
     "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -273,7 +273,7 @@
   },
   {
     "externalKey": "sam_gov:ecfbfeda4acb4d26a1a5653b2df43e5e",
-    "rawDocumentPath": "data/raw/sam_gov/2d3b758600be6702.json",
+    "rawDocumentPath": "data/raw/sam_gov/4d491203db813d55.json",
     "source": "sam_gov",
     "name": "Draft RFP - Mars Telecommunications Network (MTN)",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ecfbfeda4acb4d26a1a5653b2df43e5e",
@@ -292,7 +292,7 @@
   },
   {
     "externalKey": "sam_gov:b7c3c7673d254cc3bdc4b3aff5436fd2",
-    "rawDocumentPath": "data/raw/sam_gov/e8fcf29278c02491.json",
+    "rawDocumentPath": "data/raw/sam_gov/1d2adbb68e284758.json",
     "source": "sam_gov",
     "name": "Installation Fiber Optics Networking Support Services",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b7c3c7673d254cc3bdc4b3aff5436fd2",
@@ -941,7 +941,7 @@
   },
   {
     "externalKey": "sam_gov:a241fe9526ad43ce9db4848accb51903",
-    "rawDocumentPath": "data/raw/sam_gov/2d3b758600be6702.json",
+    "rawDocumentPath": "data/raw/sam_gov/4d491203db813d55.json",
     "source": "sam_gov",
     "name": "Foreign Military Sales (FMS) Requirement to Procure Ultra High Frequency Tactical Satellite (TACSAT) Radios for NATO Communications and Information Agency (NCIA)",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a241fe9526ad43ce9db4848accb51903",
@@ -960,11 +960,11 @@
   },
   {
     "externalKey": "sam_gov:c410925f38264bcd851d51aba51d7307",
-    "rawDocumentPath": "data/raw/sam_gov/2d3b758600be6702.json",
+    "rawDocumentPath": "data/raw/sam_gov/4d491203db813d55.json",
     "source": "sam_gov",
     "name": "Commercial and Military Satellite Communications Operations Support (COSMOS)",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=c410925f38264bcd851d51aba51d7307",
-    "openDate": "2026-09-11",
+    "openDate": "2026-09-10",
     "closeDate": "2026-05-01",
     "cmmcRequirement": null,
     "fundingAmount": null,
@@ -981,11 +981,11 @@
   },
   {
     "externalKey": "sam_gov:f343689fec264a0392afe80d38cd4a6b",
-    "rawDocumentPath": "data/raw/sam_gov/e8fcf29278c02491.json",
+    "rawDocumentPath": "data/raw/sam_gov/1d2adbb68e284758.json",
     "source": "sam_gov",
     "name": "NETWORK,TACTICAL SW",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f343689fec264a0392afe80d38cd4a6b",
-    "openDate": "2026-09-17",
+    "openDate": "2026-09-16",
     "closeDate": "2026-09-28",
     "cmmcRequirement": null,
     "fundingAmount": null,
