@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-09-25T06:39:16.629537Z",
+  "lastScan": "2026-09-25T18:00:46.380547Z",
   "opportunities": [
     {
       "externalKey": "diu:commercial-solutions-openings-cso-space-threat-intelligence-synthesis-engineclos",
@@ -22,7 +22,7 @@
     },
     {
       "externalKey": "diu:bridgeclass-act-sensors-and-effectors-countering-unmanned-system-in-maritime-env",
-      "rawDocumentPath": "data/raw/diu/f8868df97b3eb33b.json",
+      "rawDocumentPath": "data/raw/diu/c7bfbe2d82ce98bb.json",
       "source": "diu",
       "name": "BridgeCLASS ACT - Sensors and effectors countering unmanned system in maritime environmentsClosing: 2026-10-13 23:59:59 US/Eastern Time\u219701",
       "objective": "The Bridge Program at the Department of War Innovation Unit (DIU) invites submissions to this topic area under the Classified Access to Address Critical Technology (CLASS ACT) Solicitation HQ084526SC002 , which should be referenced prior to submitting to this topic area. Please note that this is a pilot effort and not a traditional DIU CSO opportunity, to increase the numbers of cleared vendors that can support the Department of War. This effort is raising the probability of commercial technology adoption by helping to ensure that nontraditional defense contractors are able to meet critical operational needs that require clearances. This topic area targets innovators developing technology or capabilities to counter unmanned systems in maritime environments. Adversaries threaten ports, harbors, naval forces, and other critical maritime infrastructure with the use of unmanned systems that operate underwater, on the surface, or in the air. These systems may be tethered, programmed, and hardened to prevent detection or interference. DIU is expanding the availability of TS-cleared nontraditional defense contractors that provide sensors (passive and active) and effectors to defeat adversarial unmanned systems (UxV) in and around maritime environments. Of specific interest are capabilities or technologies for long-range (60km+) passive detection across domains and UxV sizes, assured active detection and tracking of swarms (100s of UxVs at distances greater than 5km) across domains a",
@@ -301,7 +301,7 @@
     },
     {
       "externalKey": "spacewerx:spacewerx-hosts-the-defense-curious-forum",
-      "rawDocumentPath": "data/raw/spacewerx/52d6427220043e8b.json",
+      "rawDocumentPath": "data/raw/spacewerx/371b34df2a266044.json",
       "source": "spacewerx",
       "name": "SpaceWERX hosts the Defense Curious Forum",
       "objective": "Join SpaceWERX at The BR-DGE for the Defense Curious Forum on Sept. 29 for an afternoon of candid conversations, practical insights and high-value networking focused on helping commercial innovators navigate the defense ecosystem and turn dual-use technology into mission-critical capability. Connect with decision-makers, explore acquisition and investment pathways, and discover how your innovation can help address critical space capability gaps.",
