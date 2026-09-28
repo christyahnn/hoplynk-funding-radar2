@@ -1,28 +1,9 @@
 {
-  "lastScan": "2026-09-27T17:49:17.664173Z",
+  "lastScan": "2026-09-28T07:41:11.477008Z",
   "opportunities": [
     {
-      "externalKey": "diu:commercial-solutions-openings-cso-space-threat-intelligence-synthesis-engineclos",
-      "rawDocumentPath": "data/raw/diu/66bdb0a9167a5eb4.json",
-      "source": "diu",
-      "name": "Commercial Solutions Openings (CSO)Space Threat Intelligence Synthesis EngineClosing: 2026-09-24 23:59:59 US/Eastern Time\u219701",
-      "objective": "Today\u2019s space and missile threat information is spread across a variety of sources. Existing tools struggle to distinguish closely spaced objects, track emerging threats, and keep threat models current. A more effective approach is needed to give operators and automated systems a clear picture. The resulting insights must be available quickly enough to inform time-sensitive operational decisions. The Department of War is looking for AI-based software tools to turn fragmented sensor data into a continuously updated understanding of space and missile threats fast enough to drive operational decisions. The desired solution will ingest and fuse massive streams of multi-source data, including live video, satellite imagery, radar and sensor feeds, geospatial data, and classified intelligence reports. By automating advanced cross-data correlation, the architecture aims to uncover hidden patterns, complex operational relationships, and predictive threat behaviors far beyond the capabilities of human analysis alone. Designed around open standards, the solution will continuously update weapons-system performance models in real time. It will deliver dual outputs: intuitive, human-readable visualizations for frontline operators and low-latency, machine-to-machine APIs to drive automated command-and-control (C2) workflows. Security, Infrastructure & Enterprise Interoperability Security, Infrastructure & Enterprise Interoperability Vendors are welcome to apply individually or in partnershi",
-      "openDate": null,
-      "closeDate": null,
-      "cmmcRequirement": null,
-      "fundingAmount": null,
-      "applicationUrl": "https://www.diu.mil/work-with-us/submit-solution/PROJ00716",
-      "notes": "Picked up by keyword scan; not yet manually reviewed.",
-      "products": [],
-      "fitLevel": "Review",
-      "matchSource": "keyword",
-      "firstSeen": "2026-09-11",
-      "lastSeen": "2026-09-24",
-      "archived": false
-    },
-    {
       "externalKey": "diu:bridgeclass-act-sensors-and-effectors-countering-unmanned-system-in-maritime-env",
-      "rawDocumentPath": "data/raw/diu/5b15588af6bcd76f.json",
+      "rawDocumentPath": "data/raw/diu/107493aa949a61bf.json",
       "source": "diu",
       "name": "BridgeCLASS ACT - Sensors and effectors countering unmanned system in maritime environmentsClosing: 2026-10-13 23:59:59 US/Eastern Time\u219701",
       "objective": "The Bridge Program at the Department of War Innovation Unit (DIU) invites submissions to this topic area under the Classified Access to Address Critical Technology (CLASS ACT) Solicitation HQ084526SC002 , which should be referenced prior to submitting to this topic area. Please note that this is a pilot effort and not a traditional DIU CSO opportunity, to increase the numbers of cleared vendors that can support the Department of War. This effort is raising the probability of commercial technology adoption by helping to ensure that nontraditional defense contractors are able to meet critical operational needs that require clearances. This topic area targets innovators developing technology or capabilities to counter unmanned systems in maritime environments. Adversaries threaten ports, harbors, naval forces, and other critical maritime infrastructure with the use of unmanned systems that operate underwater, on the surface, or in the air. These systems may be tethered, programmed, and hardened to prevent detection or interference. DIU is expanding the availability of TS-cleared nontraditional defense contractors that provide sensors (passive and active) and effectors to defeat adversarial unmanned systems (UxV) in and around maritime environments. Of specific interest are capabilities or technologies for long-range (60km+) passive detection across domains and UxV sizes, assured active detection and tracking of swarms (100s of UxVs at distances greater than 5km) across domains a",
@@ -36,7 +17,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-09-25",
-      "lastSeen": "2026-09-27",
+      "lastSeen": "2026-09-28",
       "archived": false
     },
     {
@@ -83,7 +64,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/15c48baa19c92117.json",
+      "rawDocumentPath": "data/raw/sam_gov/599a1905e5a3925b.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -97,7 +78,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-09-27",
+      "lastSeen": "2026-09-28",
       "archived": false
     },
     {
@@ -138,11 +119,11 @@
     },
     {
       "externalKey": "sam_gov:f343689fec264a0392afe80d38cd4a6b",
-      "rawDocumentPath": "data/raw/sam_gov/0096f7b6be2434c6.json",
+      "rawDocumentPath": "data/raw/sam_gov/681f72c3bb309e28.json",
       "source": "sam_gov",
       "name": "NETWORK,TACTICAL SW",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f343689fec264a0392afe80d38cd4a6b",
-      "openDate": "2026-09-17",
+      "openDate": "2026-09-16",
       "closeDate": "2026-09-28",
       "cmmcRequirement": null,
       "fundingAmount": null,
@@ -152,7 +133,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-09-17",
-      "lastSeen": "2026-09-27",
+      "lastSeen": "2026-09-28",
       "archived": false
     },
     {
@@ -301,7 +282,7 @@
     },
     {
       "externalKey": "spacewerx:spacewerx-hosts-the-defense-curious-forum",
-      "rawDocumentPath": "data/raw/spacewerx/8c188916bf5647b5.json",
+      "rawDocumentPath": "data/raw/spacewerx/074d5755b80a9db4.json",
       "source": "spacewerx",
       "name": "SpaceWERX hosts the Defense Curious Forum",
       "objective": "Join SpaceWERX at The BR-DGE for the Defense Curious Forum on Sept. 29 for an afternoon of candid conversations, practical insights and high-value networking focused on helping commercial innovators navigate the defense ecosystem and turn dual-use technology into mission-critical capability. Connect with decision-makers, explore acquisition and investment pathways, and discover how your innovation can help address critical space capability gaps.",
@@ -315,7 +296,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-27",
+      "lastSeen": "2026-09-28",
       "archived": false
     }
   ]
