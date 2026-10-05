@@ -1,9 +1,9 @@
 {
-  "lastScan": "2026-10-04T17:39:30.313173Z",
+  "lastScan": "2026-10-05T07:44:02.676819Z",
   "opportunities": [
     {
       "externalKey": "diu:bridgeclass-act-sensors-and-effectors-countering-unmanned-system-in-maritime-env",
-      "rawDocumentPath": "data/raw/diu/32a1878ba3bb454e.json",
+      "rawDocumentPath": "data/raw/diu/761661425ec795ee.json",
       "source": "diu",
       "name": "BridgeCLASS ACT - Sensors and effectors countering unmanned system in maritime environmentsClosing: 2026-10-13 23:59:59 US/Eastern Time\u219702",
       "objective": "The Bridge Program at the Department of War Innovation Unit (DIU) invites submissions to this topic area under the Classified Access to Address Critical Technology (CLASS ACT) Solicitation HQ084526SC002 , which should be referenced prior to submitting to this topic area. Please note that this is a pilot effort and not a traditional DIU CSO opportunity, to increase the numbers of cleared vendors that can support the Department of War. This effort is raising the probability of commercial technology adoption by helping to ensure that nontraditional defense contractors are able to meet critical operational needs that require clearances. This topic area targets innovators developing technology or capabilities to counter unmanned systems in maritime environments. Adversaries threaten ports, harbors, naval forces, and other critical maritime infrastructure with the use of unmanned systems that operate underwater, on the surface, or in the air. These systems may be tethered, programmed, and hardened to prevent detection or interference. DIU is expanding the availability of TS-cleared nontraditional defense contractors that provide sensors (passive and active) and effectors to defeat adversarial unmanned systems (UxV) in and around maritime environments. Of specific interest are capabilities or technologies for long-range (60km+) passive detection across domains and UxV sizes, assured active detection and tracking of swarms (100s of UxVs at distances greater than 5km) across domains a",
@@ -17,12 +17,12 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-09-25",
-      "lastSeen": "2026-10-04",
+      "lastSeen": "2026-10-05",
       "archived": false
     },
     {
       "externalKey": "diu:autonomous-warfarelow-cost-isr-lc-isr-closing-2026-10-14-23-59-59-us-eastern-tim",
-      "rawDocumentPath": "data/raw/diu/d3cd40609c9d7fd2.json",
+      "rawDocumentPath": "data/raw/diu/4e50343b4d185c45.json",
       "source": "diu",
       "name": "Autonomous WarfareLow Cost ISR (LC-ISR)Closing: 2026-10-14 23:59:59 US/Eastern Time\u219701",
       "objective": "The joint force needs inexpensive and capable aerial Intelligence, Surveillance, and Reconnaissance (ISR) solutions to provide decision and targeting quality data across land, littoral, and maritime environments. Current ISR solutions are often tethered to vulnerable airfields and infrastructure, have large manning requirements, and are too expensive to widely proliferate. Additionally, the exquisite nature, low manufacturing throughput, and high cost of legacy systems hinders their employment in contested areas \u2013 the very areas they are often most needed. As such, the Department of War often struggles to meet its aggregate ISR demands in support of the joint force. The Department of War (DoW) seeks both medium and long-endurance Unmanned Aerial Systems (UAS) or other platforms that can collect and transmit multi-intelligence (multi-int) sensor data to support real-time operational and targeting decisions over expansive land, littoral, and maritime regions. The Government seeks mature solutions, not concepts. The most competitive solutions will be capable of launching and recovering from expeditionary locations and will align to the performance and maintenance characteristics listed in the attributes below. The Government seeks to maximize aggregate mission coverage and operational effect at the lowest total lifecycle cost, enabling affordable mass and scalable ISR operations. The DoW is interested in both U.S. and non-U.S. capabilities. Companies may submit independently or",
@@ -38,7 +38,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-09-29",
-      "lastSeen": "2026-10-04",
+      "lastSeen": "2026-10-05",
       "archived": false
     },
     {
@@ -85,7 +85,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/cd4d93d138f27c0b.json",
+      "rawDocumentPath": "data/raw/sam_gov/e50fa3ab1ed69fbb.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -99,7 +99,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-10-04",
+      "lastSeen": "2026-10-05",
       "archived": false
     },
     {
