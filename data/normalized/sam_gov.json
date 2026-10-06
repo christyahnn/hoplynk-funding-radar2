@@ -218,7 +218,7 @@
   },
   {
     "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-    "rawDocumentPath": "data/raw/sam_gov/7c651e9b606500ca.json",
+    "rawDocumentPath": "data/raw/sam_gov/09fe8d317caa5623.json",
     "source": "sam_gov",
     "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -960,7 +960,7 @@
   },
   {
     "externalKey": "sam_gov:c410925f38264bcd851d51aba51d7307",
-    "rawDocumentPath": "data/raw/sam_gov/7c651e9b606500ca.json",
+    "rawDocumentPath": "data/raw/sam_gov/09fe8d317caa5623.json",
     "source": "sam_gov",
     "name": "Commercial and Military Satellite Communications Operations Support (COSMOS)",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=c410925f38264bcd851d51aba51d7307",
