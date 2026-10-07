@@ -218,7 +218,7 @@
   },
   {
     "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-    "rawDocumentPath": "data/raw/sam_gov/0d183450093bfdf4.json",
+    "rawDocumentPath": "data/raw/sam_gov/f4058246d406be38.json",
     "source": "sam_gov",
     "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -960,7 +960,7 @@
   },
   {
     "externalKey": "sam_gov:c410925f38264bcd851d51aba51d7307",
-    "rawDocumentPath": "data/raw/sam_gov/0d183450093bfdf4.json",
+    "rawDocumentPath": "data/raw/sam_gov/f4058246d406be38.json",
     "source": "sam_gov",
     "name": "Commercial and Military Satellite Communications Operations Support (COSMOS)",
     "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=c410925f38264bcd851d51aba51d7307",
@@ -1071,6 +1071,25 @@
     "fitLevel": "Review",
     "matchSource": "keyword",
     "firstSeen": "2026-09-22",
+    "lastSeen": "2026-10-07",
+    "archived": false
+  },
+  {
+    "externalKey": "sam_gov:8a11d63e3a8a4fcdbbd2fddae13da741",
+    "rawDocumentPath": "data/raw/sam_gov/f4058246d406be38.json",
+    "source": "sam_gov",
+    "name": "Removal of Abandoned Telecommunications Equipment",
+    "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=8a11d63e3a8a4fcdbbd2fddae13da741",
+    "openDate": "2026-10-07",
+    "closeDate": "2026-10-15",
+    "cmmcRequirement": null,
+    "fundingAmount": null,
+    "applicationUrl": "https://sam.gov/workspace/contract/opp/8a11d63e3a8a4fcdbbd2fddae13da741/view",
+    "notes": "Picked up by keyword scan; not yet manually reviewed.",
+    "products": [],
+    "fitLevel": "Review",
+    "matchSource": "keyword",
+    "firstSeen": "2026-10-07",
     "lastSeen": "2026-10-07",
     "archived": false
   }
