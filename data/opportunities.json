@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-10-14T06:45:20.382126Z",
+  "lastScan": "2026-10-14T18:04:42.627184Z",
   "opportunities": [
     {
       "externalKey": "diu:bridgeclass-act-sensors-and-effectors-countering-unmanned-system-in-maritime-env",
@@ -22,7 +22,7 @@
     },
     {
       "externalKey": "diu:autonomous-warfarelow-cost-isr-lc-isr-closing-2026-10-14-23-59-59-us-eastern-tim",
-      "rawDocumentPath": "data/raw/diu/82c77e9e9ca9978b.json",
+      "rawDocumentPath": "data/raw/diu/9f87b0956edf713c.json",
       "source": "diu",
       "name": "Autonomous WarfareLow Cost ISR (LC-ISR)Closing: 2026-10-14 23:59:59 US/Eastern Time\u219701",
       "objective": "The joint force needs inexpensive and capable aerial Intelligence, Surveillance, and Reconnaissance (ISR) solutions to provide decision and targeting quality data across land, littoral, and maritime environments. Current ISR solutions are often tethered to vulnerable airfields and infrastructure, have large manning requirements, and are too expensive to widely proliferate. Additionally, the exquisite nature, low manufacturing throughput, and high cost of legacy systems hinders their employment in contested areas \u2013 the very areas they are often most needed. As such, the Department of War often struggles to meet its aggregate ISR demands in support of the joint force. The Department of War (DoW) seeks both medium and long-endurance Unmanned Aerial Systems (UAS) or other platforms that can collect and transmit multi-intelligence (multi-int) sensor data to support real-time operational and targeting decisions over expansive land, littoral, and maritime regions. The Government seeks mature solutions, not concepts. The most competitive solutions will be capable of launching and recovering from expeditionary locations and will align to the performance and maintenance characteristics listed in the attributes below. The Government seeks to maximize aggregate mission coverage and operational effect at the lowest total lifecycle cost, enabling affordable mass and scalable ISR operations. The DoW is interested in both U.S. and non-U.S. capabilities. Companies may submit independently or",
