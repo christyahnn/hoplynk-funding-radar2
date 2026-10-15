@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-10-15T06:29:46.586098Z",
+  "lastScan": "2026-10-15T17:50:26.150396Z",
   "opportunities": [
     {
       "externalKey": "diu:bridgeclass-act-sensors-and-effectors-countering-unmanned-system-in-maritime-env",
@@ -85,7 +85,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/ca6317b65516b9b7.json",
+      "rawDocumentPath": "data/raw/sam_gov/c1a78c1a2f5a557c.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -154,6 +154,25 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-10-07",
+      "lastSeen": "2026-10-15",
+      "archived": false
+    },
+    {
+      "externalKey": "sam_gov:dec837e41174454a91aa3e1bc6f7165e",
+      "rawDocumentPath": "data/raw/sam_gov/c1a78c1a2f5a557c.json",
+      "source": "sam_gov",
+      "name": "Removal of Abandoned Telecommunications Equipment",
+      "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=dec837e41174454a91aa3e1bc6f7165e",
+      "openDate": "2026-10-15",
+      "closeDate": "2026-10-23",
+      "cmmcRequirement": null,
+      "fundingAmount": null,
+      "applicationUrl": "https://sam.gov/workspace/contract/opp/dec837e41174454a91aa3e1bc6f7165e/view",
+      "notes": "Picked up by keyword scan; not yet manually reviewed.",
+      "products": [],
+      "fitLevel": "Review",
+      "matchSource": "keyword",
+      "firstSeen": "2026-10-15",
       "lastSeen": "2026-10-15",
       "archived": false
     },
