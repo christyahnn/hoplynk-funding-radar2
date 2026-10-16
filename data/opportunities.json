@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-10-15T17:50:26.150396Z",
+  "lastScan": "2026-10-16T06:24:39.436145Z",
   "opportunities": [
     {
       "externalKey": "diu:bridgeclass-act-sensors-and-effectors-countering-unmanned-system-in-maritime-env",
@@ -39,6 +39,27 @@
       "matchSource": "keyword",
       "firstSeen": "2026-09-29",
       "lastSeen": "2026-10-14",
+      "archived": false
+    },
+    {
+      "externalKey": "diu:autonomous-warfaresuitable-warfighting-adaptive-payloads-swap-usv-sprint-2closin",
+      "rawDocumentPath": "data/raw/diu/dad5c06226b1ccae.json",
+      "source": "diu",
+      "name": "Autonomous WarfareSuitable Warfighting Adaptive Payloads (SWAP)-USV Sprint 2Closing: 2026-11-30 23:59:59 US/Eastern Time\u219701",
+      "objective": "The cost-exchange ratio for detecting and neutralizing asymmetric maritime and airborne threats in contested environments is heavily skewed in favor of the adversary. Today the Department of War (DoW) too often relies on exquisite, multi-million-dollar naval surface and aviation assets to counter these inexpensive threats. Low-cost, low-signature threats\u2014including explosive Unmanned Surface Vessels (USVs), Group 1\u20133 Unmanned Aerial Systems (UAS), attack helicopters, go-fast vessels, and low-flying aerial vectors\u2014directly threaten surface-fleet operations. The current force packages lack sufficient persistent, distributed capability to search for, track, and defeat these threats at an economically sustainable cost. The Department of War Innovation Unit (DIU), in partnership with the Direct Reporting Portfolio Manager for Unmanned Systems (DRPM UxS), seeks mature, production-ready, maritime counter-air solutions through a multi-phase Prize Challenge under 10 U.S.C. \u00a7 4025 . For Sprint 2, DIU seeks integrated combinations of mature USVs and hard-kill counter-air effectors suitable for forward operational fielding within 120 days. Sprint 2 focuses specifically on detecting, tracking, and defeating hostile airborne threats in contested maritime environments. Proposed solutions should combine proven USVs, mature hard-kill effectors, resilient sensor suites, and interoperable command-and-control architectures to provide affordable, scalable, and persistent capability while favorably",
+      "openDate": null,
+      "closeDate": null,
+      "cmmcRequirement": null,
+      "fundingAmount": null,
+      "applicationUrl": "https://www.diu.mil/work-with-us/submit-solution/PROJ00721",
+      "notes": "Picked up by keyword scan; not yet manually reviewed.",
+      "products": [
+        "HAVEN"
+      ],
+      "fitLevel": "Review",
+      "matchSource": "keyword",
+      "firstSeen": "2026-10-16",
+      "lastSeen": "2026-10-16",
       "archived": false
     },
     {
@@ -85,7 +106,7 @@
     },
     {
       "externalKey": "sam_gov:231c52d9bb6c476299515a250bf37bcb",
-      "rawDocumentPath": "data/raw/sam_gov/c1a78c1a2f5a557c.json",
+      "rawDocumentPath": "data/raw/sam_gov/150574e7502be26b.json",
       "source": "sam_gov",
       "name": "FY27 Communications and Networking Applied Research Announcement for Office of Naval Research",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=231c52d9bb6c476299515a250bf37bcb",
@@ -99,7 +120,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-10-15",
+      "lastSeen": "2026-10-16",
       "archived": false
     },
     {
@@ -139,27 +160,8 @@
       "archived": false
     },
     {
-      "externalKey": "sam_gov:8a11d63e3a8a4fcdbbd2fddae13da741",
-      "rawDocumentPath": "data/raw/sam_gov/ca6317b65516b9b7.json",
-      "source": "sam_gov",
-      "name": "Removal of Abandoned Telecommunications Equipment",
-      "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=8a11d63e3a8a4fcdbbd2fddae13da741",
-      "openDate": "2026-10-07",
-      "closeDate": "2026-10-15",
-      "cmmcRequirement": null,
-      "fundingAmount": null,
-      "applicationUrl": "https://sam.gov/workspace/contract/opp/8a11d63e3a8a4fcdbbd2fddae13da741/view",
-      "notes": "Picked up by keyword scan; not yet manually reviewed.",
-      "products": [],
-      "fitLevel": "Review",
-      "matchSource": "keyword",
-      "firstSeen": "2026-10-07",
-      "lastSeen": "2026-10-15",
-      "archived": false
-    },
-    {
       "externalKey": "sam_gov:dec837e41174454a91aa3e1bc6f7165e",
-      "rawDocumentPath": "data/raw/sam_gov/c1a78c1a2f5a557c.json",
+      "rawDocumentPath": "data/raw/sam_gov/150574e7502be26b.json",
       "source": "sam_gov",
       "name": "Removal of Abandoned Telecommunications Equipment",
       "objective": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=dec837e41174454a91aa3e1bc6f7165e",
@@ -173,7 +175,7 @@
       "fitLevel": "Review",
       "matchSource": "keyword",
       "firstSeen": "2026-10-15",
-      "lastSeen": "2026-10-15",
+      "lastSeen": "2026-10-16",
       "archived": false
     },
     {
