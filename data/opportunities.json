@@ -1,9 +1,9 @@
 {
-  "lastScan": "2026-10-20T06:39:07.679854Z",
+  "lastScan": "2026-10-20T18:02:53.469751Z",
   "opportunities": [
     {
       "externalKey": "diu:autonomous-warfaresuitable-warfighting-adaptive-payloads-swap-usv-sprint-2closin",
-      "rawDocumentPath": "data/raw/diu/49dabdfc4e67723b.json",
+      "rawDocumentPath": "data/raw/diu/357499c86fb834d0.json",
       "source": "diu",
       "name": "Autonomous WarfareSuitable Warfighting Adaptive Payloads (SWAP)-USV Sprint 2Closing: 2026-11-30 23:59:59 US/Eastern Time\u219701",
       "objective": "The cost-exchange ratio for detecting and neutralizing asymmetric maritime and airborne threats in contested environments is heavily skewed in favor of the adversary. Today the Department of War (DoW) too often relies on exquisite, multi-million-dollar naval surface and aviation assets to counter these inexpensive threats. Low-cost, low-signature threats\u2014including explosive Unmanned Surface Vessels (USVs), Group 1\u20133 Unmanned Aerial Systems (UAS), attack helicopters, go-fast vessels, and low-flying aerial vectors\u2014directly threaten surface-fleet operations. The current force packages lack sufficient persistent, distributed capability to search for, track, and defeat these threats at an economically sustainable cost. The Department of War Innovation Unit (DIU), in partnership with the Direct Reporting Portfolio Manager for Unmanned Systems (DRPM UxS), seeks mature, production-ready, maritime counter-air solutions through a multi-phase Prize Challenge under 10 U.S.C. \u00a7 4025 . For Sprint 2, DIU seeks integrated combinations of mature USVs and hard-kill counter-air effectors suitable for forward operational fielding within 120 days. Sprint 2 focuses specifically on detecting, tracking, and defeating hostile airborne threats in contested maritime environments. Proposed solutions should combine proven USVs, mature hard-kill effectors, resilient sensor suites, and interoperable command-and-control architectures to provide affordable, scalable, and persistent capability while favorably",
